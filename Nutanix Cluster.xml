@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
+<service xmlns="http://www.n-able.com" author="Servinal" creationdate="06/01/2018" organization="N-able Technologies" syntaxversion="1.1.0.0" version="1.0.1.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+	<servicedefinition id="1215803" reason="" releasedependency="4.5.0.0" servicetype="SNMP" version="1.0.1.8">
+		<description country="ca" language="en"/>
+		<displayname country="ca" language="en">Nutanix Cluster</displayname>
+		<displaylabel>Nutanix Cluster</displaylabel>
+		<help country="ca" language="en">Nutanix Cluster</help>
+		<popuphelp country="ca" language="en">Nutanix Cluster</popuphelp>
+
+
+		<serviceparameters aggregatedata="true" aggregatetasks="false" maxinstances="100" maxpollrate="59" minpollrate="1" schedulertype="Cron-like Scheduler" serviceinstancetype="Single" timetostale="10000" usesstockserviceitem="false"/>
+
+
+		<moduleparameters>
+
+
+		
+			<moduleparameter key="Group.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="2" type="2" value="Capacity">
+				<shortdescription country="ca" language="en">Group name</shortdescription>
+				<longdescription country="ca" language="en">Group name</longdescription>
+				<help country="ca" language="en">Group name</help>
+			</moduleparameter>
+			<moduleparameter key="Group.0.TargetIndex.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="0">
+				<shortdescription country="ca" language="en">SNMP Index</shortdescription>
+				<longdescription country="ca" language="en">SNMP Index</longdescription>
+				<help country="ca" language="en">Enter the name of the SNMP Index to be used by this service</help>
+			</moduleparameter>
+			<moduleparameter key="Group.0.Var.1.OID.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="1.3.6.1.4.1.41263.504">
+				<shortdescription country="ca" language="en">OID 1</shortdescription>
+				<longdescription country="ca" language="en">OID 1</longdescription>
+				<help country="ca" language="en">OID 1</help>
+			</moduleparameter>
+			<moduleparameter key="Group.0.Var.1.VarName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="totalCapacity">
+				<shortdescription country="ca" language="en">Variable 1</shortdescription>
+				<longdescription country="ca" language="en">Variable 1</longdescription>
+				<help country="ca" language="en">Variable 1</help>
+			</moduleparameter>
+			<moduleparameter key="Group.0.Var.2.OID.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="1.3.6.1.4.1.41263.505">
+				<shortdescription country="ca" language="en">OID 2</shortdescription>
+				<longdescription country="ca" language="en">OID 2</longdescription>
+				<help country="ca" language="en">OID 2</help>
+			</moduleparameter>
+			<moduleparameter key="Group.0.Var.2.VarName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="usedCapacity">
+				<shortdescription country="ca" language="en">Variable 2</shortdescription>
+				<longdescription country="ca" language="en">Variable 2</longdescription>
+				<help country="ca" language="en">Variable 2</help>
+			</moduleparameter>
+			<moduleparameter key="Group.1" max="null" min="null" phardcoded="true" preferredident="0" foruseby="2" type="2" value="Info">
+				<shortdescription country="ca" language="en">Group name</shortdescription>
+				<longdescription country="ca" language="en">Group name</longdescription>
+				<help country="ca" language="en">Group name</help>
+			</moduleparameter>
+			<moduleparameter key="Group.1.TargetIndex.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="0">
+				<shortdescription country="ca" language="en">SNMP Index</shortdescription>
+				<longdescription country="ca" language="en">SNMP Index</longdescription>
+				<help country="ca" language="en">Enter the name of the SNMP Index to be used by this service</help>
+			</moduleparameter>
+			<moduleparameter key="Group.1.Var.1.OID.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="1.3.6.1.4.1.41263.501">
+				<shortdescription country="ca" language="en">OID 1</shortdescription>
+				<longdescription country="ca" language="en">OID 1</longdescription>
+				<help country="ca" language="en">OID 1</help>
+			</moduleparameter>
+			<moduleparameter key="Group.1.Var.1.VarName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="clusterName">
+				<shortdescription country="ca" language="en">Variable 1</shortdescription>
+				<longdescription country="ca" language="en">Variable 1</longdescription>
+				<help country="ca" language="en">Variable 1</help>
+			</moduleparameter>
+			<moduleparameter key="Group.1.Var.2.OID.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="1.3.6.1.4.1.41263.502">
+				<shortdescription country="ca" language="en">OID 2</shortdescription>
+				<longdescription country="ca" language="en">OID 2</longdescription>
+				<help country="ca" language="en">OID 2</help>
+			</moduleparameter>
+			<moduleparameter key="Group.1.Var.2.VarName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="clusterVersion">
+				<shortdescription country="ca" language="en">Variable 2</shortdescription>
+				<longdescription country="ca" language="en">Variable 2</longdescription>
+				<help country="ca" language="en">Variable 2</help>
+			</moduleparameter>
+			<moduleparameter key="Group.1.Var.3.OID.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="1.3.6.1.4.1.41263.503">
+				<shortdescription country="ca" language="en">OID 3</shortdescription>
+				<longdescription country="ca" language="en">OID 3</longdescription>
+				<help country="ca" language="en">OID 3</help>
+			</moduleparameter>
+			<moduleparameter key="Group.1.Var.3.VarName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="clusterStatus">
+				<shortdescription country="ca" language="en">Variable 3</shortdescription>
+				<longdescription country="ca" language="en">Variable 3</longdescription>
+				<help country="ca" language="en">Variable 3</help>
+			</moduleparameter>
+			<moduleparameter key="Group.2" max="null" min="null" phardcoded="true" preferredident="0" foruseby="2" type="2" value="Performance">
+				<shortdescription country="ca" language="en">Group name</shortdescription>
+				<longdescription country="ca" language="en">Group name</longdescription>
+				<help country="ca" language="en">Group name</help>
+			</moduleparameter>
+			<moduleparameter key="Group.2.TargetIndex.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="0">
+				<shortdescription country="ca" language="en">SNMP Index</shortdescription>
+				<longdescription country="ca" language="en">SNMP Index</longdescription>
+				<help country="ca" language="en">Enter the name of the SNMP Index to be used by this service</help>
+			</moduleparameter>
+			<moduleparameter key="Group.2.Var.1.OID.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="1.3.6.1.4.1.41263.506">
+				<shortdescription country="ca" language="en">OID 1</shortdescription>
+				<longdescription country="ca" language="en">OID 1</longdescription>
+				<help country="ca" language="en">OID 1</help>
+			</moduleparameter>
+			<moduleparameter key="Group.2.Var.1.VarName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="clusterIops">
+				<shortdescription country="ca" language="en">Variable 1</shortdescription>
+				<longdescription country="ca" language="en">Variable 1</longdescription>
+				<help country="ca" language="en">Variable 1</help>
+			</moduleparameter>
+			<moduleparameter key="Group.2.Var.2.OID.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="1.3.6.1.4.1.41263.507">
+				<shortdescription country="ca" language="en">OID 2</shortdescription>
+				<longdescription country="ca" language="en">OID 2</longdescription>
+				<help country="ca" language="en">OID 2</help>
+			</moduleparameter>
+			<moduleparameter key="Group.2.Var.2.VarName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="clusterLatency">
+				<shortdescription country="ca" language="en">Variable 2</shortdescription>
+				<longdescription country="ca" language="en">Variable 2</longdescription>
+				<help country="ca" language="en">Variable 2</help>
+			</moduleparameter>
+			<moduleparameter key="Group.2.Var.3.OID.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="1.3.6.1.4.1.41263.508">
+				<shortdescription country="ca" language="en">OID 3</shortdescription>
+				<longdescription country="ca" language="en">OID 3</longdescription>
+				<help country="ca" language="en">OID 3</help>
+			</moduleparameter>
+			<moduleparameter key="Group.2.Var.3.VarName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="clusterIOBandwidth">
+				<shortdescription country="ca" language="en">Variable 3</shortdescription>
+				<longdescription country="ca" language="en">Variable 3</longdescription>
+				<help country="ca" language="en">Variable 3</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.10.Recipe.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="$usedCapacity $totalCapacity / 100.0 *">
+				<shortdescription country="ca" language="en">Scan detail recipe</shortdescription>
+				<longdescription country="ca" language="en">Scan detail recipe</longdescription>
+				<help country="ca" language="en">Scan detail recipe</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.10.ScandetailName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="SD1215803_SNMP_11">
+				<shortdescription country="ca" language="en">Scan detail name</shortdescription>
+				<longdescription country="ca" language="en">Scan detail name</longdescription>
+				<help country="ca" language="en">Scan detail name</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.10.Type.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="Percentage">
+				<shortdescription country="ca" language="en">Scan detail type</shortdescription>
+				<longdescription country="ca" language="en">Scan detail type</longdescription>
+				<help country="ca" language="en">Scan detail type</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.12.Recipe.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="$clusterIops">
+				<shortdescription country="ca" language="en">Scan detail recipe</shortdescription>
+				<longdescription country="ca" language="en">Scan detail recipe</longdescription>
+				<help country="ca" language="en">Scan detail recipe</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.12.ScandetailName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="SD1215803_SNMP_13">
+				<shortdescription country="ca" language="en">Scan detail name</shortdescription>
+				<longdescription country="ca" language="en">Scan detail name</longdescription>
+				<help country="ca" language="en">Scan detail name</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.12.Type.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="uint64">
+				<shortdescription country="ca" language="en">Scan detail type</shortdescription>
+				<longdescription country="ca" language="en">Scan detail type</longdescription>
+				<help country="ca" language="en">Scan detail type</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.13.Recipe.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="$clusterLatency 1000.0 /">
+				<shortdescription country="ca" language="en">Scan detail recipe</shortdescription>
+				<longdescription country="ca" language="en">Scan detail recipe</longdescription>
+				<help country="ca" language="en">Scan detail recipe</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.13.ScandetailName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="SD1215803_SNMP_14">
+				<shortdescription country="ca" language="en">Scan detail name</shortdescription>
+				<longdescription country="ca" language="en">Scan detail name</longdescription>
+				<help country="ca" language="en">Scan detail name</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.13.Type.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="uint64">
+				<shortdescription country="ca" language="en">Scan detail type</shortdescription>
+				<longdescription country="ca" language="en">Scan detail type</longdescription>
+				<help country="ca" language="en">Scan detail type</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.14.Recipe.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="$clusterIOBandwidth 1000.0 *">
+				<shortdescription country="ca" language="en">Scan detail recipe</shortdescription>
+				<longdescription country="ca" language="en">Scan detail recipe</longdescription>
+				<help country="ca" language="en">Scan detail recipe</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.14.ScandetailName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="SD1215803_SNMP_15">
+				<shortdescription country="ca" language="en">Scan detail name</shortdescription>
+				<longdescription country="ca" language="en">Scan detail name</longdescription>
+				<help country="ca" language="en">Scan detail name</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.14.Type.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="uint64">
+				<shortdescription country="ca" language="en">Scan detail type</shortdescription>
+				<longdescription country="ca" language="en">Scan detail type</longdescription>
+				<help country="ca" language="en">Scan detail type</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.5.Recipe.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="$clusterName">
+				<shortdescription country="ca" language="en">Scan detail recipe</shortdescription>
+				<longdescription country="ca" language="en">Scan detail recipe</longdescription>
+				<help country="ca" language="en">Scan detail recipe</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.5.ScandetailName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="SD1215803_SNMP_6">
+				<shortdescription country="ca" language="en">Scan detail name</shortdescription>
+				<longdescription country="ca" language="en">Scan detail name</longdescription>
+				<help country="ca" language="en">Scan detail name</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.5.Type.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="String">
+				<shortdescription country="ca" language="en">Scan detail type</shortdescription>
+				<longdescription country="ca" language="en">Scan detail type</longdescription>
+				<help country="ca" language="en">Scan detail type</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.6.Recipe.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="$clusterVersion">
+				<shortdescription country="ca" language="en">Scan detail recipe</shortdescription>
+				<longdescription country="ca" language="en">Scan detail recipe</longdescription>
+				<help country="ca" language="en">Scan detail recipe</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.6.ScandetailName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="SD1215803_SNMP_7">
+				<shortdescription country="ca" language="en">Scan detail name</shortdescription>
+				<longdescription country="ca" language="en">Scan detail name</longdescription>
+				<help country="ca" language="en">Scan detail name</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.6.Type.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="String">
+				<shortdescription country="ca" language="en">Scan detail type</shortdescription>
+				<longdescription country="ca" language="en">Scan detail type</longdescription>
+				<help country="ca" language="en">Scan detail type</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.7.Recipe.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="$clusterStatus">
+				<shortdescription country="ca" language="en">Scan detail recipe</shortdescription>
+				<longdescription country="ca" language="en">Scan detail recipe</longdescription>
+				<help country="ca" language="en">Scan detail recipe</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.7.ScandetailName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="SD1215803_SNMP_8">
+				<shortdescription country="ca" language="en">Scan detail name</shortdescription>
+				<longdescription country="ca" language="en">Scan detail name</longdescription>
+				<help country="ca" language="en">Scan detail name</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.7.Type.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="String">
+				<shortdescription country="ca" language="en">Scan detail type</shortdescription>
+				<longdescription country="ca" language="en">Scan detail type</longdescription>
+				<help country="ca" language="en">Scan detail type</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.8.Recipe.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="$totalCapacity">
+				<shortdescription country="ca" language="en">Scan detail recipe</shortdescription>
+				<longdescription country="ca" language="en">Scan detail recipe</longdescription>
+				<help country="ca" language="en">Scan detail recipe</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.8.ScandetailName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="SD1215803_SNMP_9">
+				<shortdescription country="ca" language="en">Scan detail name</shortdescription>
+				<longdescription country="ca" language="en">Scan detail name</longdescription>
+				<help country="ca" language="en">Scan detail name</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.8.Type.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="uint64">
+				<shortdescription country="ca" language="en">Scan detail type</shortdescription>
+				<longdescription country="ca" language="en">Scan detail type</longdescription>
+				<help country="ca" language="en">Scan detail type</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.9.Recipe.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="$usedCapacity">
+				<shortdescription country="ca" language="en">Scan detail recipe</shortdescription>
+				<longdescription country="ca" language="en">Scan detail recipe</longdescription>
+				<help country="ca" language="en">Scan detail recipe</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.9.ScandetailName.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="SD1215803_SNMP_10">
+				<shortdescription country="ca" language="en">Scan detail name</shortdescription>
+				<longdescription country="ca" language="en">Scan detail name</longdescription>
+				<help country="ca" language="en">Scan detail name</help>
+			</moduleparameter>
+			<moduleparameter key="Scandetail.9.Type.0" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="uint64">
+				<shortdescription country="ca" language="en">Scan detail type</shortdescription>
+				<longdescription country="ca" language="en">Scan detail type</longdescription>
+				<help country="ca" language="en">Scan detail type</help>
+			</moduleparameter>
+			<moduleparameter key="scan_interval" max="null" min="null" phardcoded="false" preferredident="0" foruseby="3" type="2" value="0,5,10,15,20,25,30,35,40,45,50,55 0-23 * * *">
+				<shortdescription country="ca" language="en">Scan Interval</shortdescription>
+				<longdescription country="ca" language="en">Scan Interval</longdescription>
+				<help country="ca" language="en">The number of minutes between scans.</help>
+			</moduleparameter>
+		</moduleparameters>
+
+
+
+		<scandetails>
+			<scandetailid>3964300</scandetailid>
+			<scandetailid>3964301</scandetailid>
+			<scandetailid>3964302</scandetailid>
+			<scandetailid>3964303</scandetailid>
+			<scandetailid>3964304</scandetailid>
+			<scandetailid>3964305</scandetailid>
+			<scandetailid>3964306</scandetailid>
+			<scandetailid>3964307</scandetailid>
+			<scandetailid>3964308</scandetailid>
+		</scandetails>
+	</servicedefinition>
+
+
+
+	<scandetail id="3964300" unit="Percent" monitoringtypeon="true" processforstate="true" cookid="1" releasedependency="11.0.1.1055" version="1.0.0.0" >
+		<thresholddefaults>
+			<thresholds configurable="true" type="Percentage"><threshold high="70" low="0" streval="" strvalue="" state="Normal"/><threshold high="90" low="70" streval="" strvalue="" state="Warning"/><threshold high="100" low="90" streval="" strvalue="" state="Failed"/>
+			</thresholds>
+		</thresholddefaults>
+		<description country="ca" language="en">Storage Usage</description>
+		<displayname country="ca" language="en">SD1215803_SNMP_11</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3964301" unit="Operations/sec" monitoringtypeon="true" processforstate="false" cookid="21" releasedependency="11.0.1.1055" version="1.0.0.0" >
+		<description country="ca" language="en">Cluster wide average IO operations per second</description>
+		<displayname country="ca" language="en">SD1215803_SNMP_13</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3964302" unit="ms" monitoringtypeon="true" processforstate="false" cookid="21" releasedependency="11.0.1.1055" version="1.0.0.0" >
+		<description country="ca" language="en">Cluster wide average latency</description>
+		<displayname country="ca" language="en">SD1215803_SNMP_14</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3964303" unit="Bytes/Second" monitoringtypeon="true" processforstate="false" cookid="21" releasedependency="11.0.1.1055" version="1.0.0.0" >
+		<description country="ca" language="en">Cluster wide IO bandwidth in KBps</description>
+		<displayname country="ca" language="en">SD1215803_SNMP_15</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3964304" monitoringtypeon="true" processforstate="false" cookid="34" releasedependency="11.0.1.1055" version="1.0.0.0" >
+		<description country="ca" language="en">Cluster Name</description>
+		<displayname country="ca" language="en">SD1215803_SNMP_6</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3964305" monitoringtypeon="true" processforstate="false" cookid="34" releasedependency="11.0.1.1055" version="1.0.0.0" >
+		<description country="ca" language="en">Cluster Version</description>
+		<displayname country="ca" language="en">SD1215803_SNMP_7</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3964306" monitoringtypeon="true" processforstate="false" cookid="34" releasedependency="11.0.1.1055" version="1.0.0.0" >
+		<description country="ca" language="en">Cluster Status</description>
+		<displayname country="ca" language="en">SD1215803_SNMP_8</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3964307" unit="Byte" monitoringtypeon="true" processforstate="false" cookid="21" releasedependency="11.0.1.1055" version="1.0.0.0" >
+		<description country="ca" language="en">Storage Capacity Total</description>
+		<displayname country="ca" language="en">SD1215803_SNMP_9</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3964308" unit="Byte" monitoringtypeon="true" processforstate="false" cookid="21" releasedependency="11.0.1.1055" version="1.0.0.0" >
+		<description country="ca" language="en">Storage Capacity Used</description>
+		<displayname country="ca" language="en">SD1215803_SNMP_10</displayname>
+	</scandetail>
+</service>
+<?N-able-SDK version=3.0?>
