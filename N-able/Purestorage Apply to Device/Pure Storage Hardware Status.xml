@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
+<service xmlns="http://www.n-able.com" author="pwells" creationdate="06/20/2018" organization="N-able Technologies" syntaxversion="1.1.0.0" version="1.0.1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+	<servicedefinition id="1328271" reason="" releasedependency="4.5.0.0" servicetype="AMP" version="1.0.1.3">
+		<description country="ca" language="en">Pure Storage Hardware Status</description>
+		<displayname country="ca" language="en">Pure Storage Hardware Status</displayname>
+		<displaylabel>Pure Storage Hardware Status</displaylabel>
+		<help country="ca" language="en">Pure Storage Hardware Status</help>
+		<popuphelp country="ca" language="en">Pure Storage Hardware Status</popuphelp>
+
+
+		<serviceparameters aggregatedata="false" aggregatetasks="false" maxinstances="100" maxpollrate="60" minpollrate="0" schedulertype="Quartz Based Scheduler" serviceinstancetype="Multiple" timetostale="60" usesstockserviceitem="false"/>
+
+
+		<moduleparameters>
+
+
+		
+			<moduleparameter key="FAIP" max="null" min="null" phardcoded="false" preferredident="0" foruseby="6" type="2" value="10.1.1.70">
+				<shortdescription country="ca" language="en">Pure Storage IP Address</shortdescription>
+				<longdescription country="ca" language="en">Pure Storage IP Address</longdescription>
+				<help country="ca" language="en"/>
+				<presentationinfo>
+					<presentationitem datatype="String" description="" type="mandatory" value="" />
+				</presentationinfo>
+			</moduleparameter>
+			<moduleparameter key="Password" max="null" min="null" phardcoded="false" preferredident="0" foruseby="6" type="2" value="Hot3lCar@">
+				<shortdescription country="ca" language="en">Pure Storage Password</shortdescription>
+				<longdescription country="ca" language="en">Pure Storage Password</longdescription>
+				<help country="ca" language="en"/>
+				<presentationinfo>
+					<presentationitem datatype="String" description="" type="password" value="" />
+					<presentationitem datatype="String" description="" type="mandatory" value="" />
+				</presentationinfo>
+			</moduleparameter>
+			<moduleparameter key="Username" max="null" min="null" phardcoded="false" preferredident="0" foruseby="6" type="2" value="pureuser">
+				<shortdescription country="ca" language="en">Pure Storage Username</shortdescription>
+				<longdescription country="ca" language="en">Pure Storage Username</longdescription>
+				<help country="ca" language="en"/>
+				<presentationinfo>
+					<presentationitem datatype="String" description="" type="mandatory" value="" />
+				</presentationinfo>
+			</moduleparameter>
+			<moduleparameter key="scan_interval" max="null" min="null" phardcoded="false" preferredident="0" foruseby="3" type="2" value="0 0 14 * * ? *">
+				<shortdescription country="ca" language="en">Scan Interval</shortdescription>
+				<longdescription country="ca" language="en">Scan Interval</longdescription>
+				<help country="ca" language="en">The number of minutes between scans.</help>
+			</moduleparameter>
+			<moduleparameter key="selectedAutomationPolicy" max="null" min="null" phardcoded="true" preferredident="0" foruseby="3" type="2" value="602483429">
+				<shortdescription country="ca" language="en">Automation Manager Policy</shortdescription>
+				<longdescription country="ca" language="en">Automation Manager Policy</longdescription>
+				<help country="ca" language="en"/>
+			</moduleparameter>
+			<moduleparameter key="serviceIdentifier" max="null" min="null" phardcoded="false" preferredident="1" foruseby="3" type="2" value="">
+				<shortdescription country="ca" language="en">Service Identifier</shortdescription>
+				<longdescription country="ca" language="en">Service Identifier</longdescription>
+				<help country="ca" language="en"/>
+			</moduleparameter>
+		</moduleparameters>
+
+
+
+		<scandetails>
+			<scandetailid>3712200</scandetailid>
+			<scandetailid>3712201</scandetailid>
+			<scandetailid>3712202</scandetailid>
+		</scandetails>
+	</servicedefinition>
+
+
+
+	<scandetail id="3712200" monitoringtypeon="true" processforstate="true" cookid="5" releasedependency="11.0.1.1060" version="1.0.0.0" >
+		<thresholddefaults>
+			<thresholds configurable="true" type="String"><threshold high="1" low="1" streval="contain" strvalue="All" state="Normal"/><threshold high="0" low="0" streval="contain" strvalue="All" state="Failed"/>
+			</thresholds>
+		</thresholddefaults>
+		<description country="ca" language="en">Hardware Type</description>
+		<displayname country="ca" language="en">SD1328271_HWType</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3712201" monitoringtypeon="true" processforstate="true" cookid="5" releasedependency="11.0.1.1060" version="1.0.0.0" >
+		<thresholddefaults>
+			<thresholds configurable="true" type="String"><threshold high="1" low="1" streval="contain" strvalue="000000" state="Normal"/><threshold high="0" low="0" streval="contain" strvalue="000000" state="Failed"/>
+			</thresholds>
+		</thresholddefaults>
+		<description country="ca" language="en">Hardware Index</description>
+		<displayname country="ca" language="en">SD1328271_HWIndex</displayname>
+	</scandetail>
+
+
+
+	<scandetail id="3712202" monitoringtypeon="true" processforstate="true" cookid="5" releasedependency="11.0.1.1060" version="1.0.0.0" >
+		<thresholddefaults>
+			<thresholds configurable="true" type="String"><threshold high="1" low="1" streval="contain" strvalue="well" state="Normal"/><threshold high="0" low="0" streval="contain" strvalue="well" state="Failed"/>
+			</thresholds>
+		</thresholddefaults>
+		<description country="ca" language="en">Hardware Status</description>
+		<displayname country="ca" language="en">SD1328271_HWStatus</displayname>
+	</scandetail>
+
+
+	<automationmanagerpolicy name="Pure Storage Hardware Status" description="Pure Storage FlashArray Hardware Status" itemuuid="cf11425d-feaa-4a6a-912d-4277296e37ab" category="0" uploaddate="2016-12-06 14:04:51">
+		<ampdata>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48UG9saWN5IERlc2NyaXB0aW9uPSJVSFZ5WlNCVGRHOXlZV2RsSUVac1lYTm9RWEp5WVhrZ1NHRnlaSGRoY21VZ1UzUmhkSFZ6IiBFeGVjdXRpb25UeXBlPSJDdXJyZW50TG9nZ2VkT25Vc2VyIiBJRD0iY2YxMTQyNWQtZmVhYS00YTZhLTkxMmQtNDI3NzI5NmUzN2FiIiBOYW1lPSJQdXJlIFN0b3JhZ2UgSGFyZHdhcmUgU3RhdHVzIiBQUzNPYmplY3RDb3VudD0iMCIgUmVtb3RlQ2F0ZWdvcnk9IjAiIFZlcnNpb249IjIuMC4zLjEwOCI+CiAgPE9iamVjdCBEYXRhPSImbHQ7eG1sJmd0OyZsdDtQYXJhbWV0ZXJzJmd0OyZsdDtQYXJhbWV0ZXIgUGFyYW1ldGVyTmFtZT0mcXVvdDtVc2VybmFtZSZxdW90OyBMYWJlbD0mcXVvdDtQdXJlIFN0b3JhZ2UgVXNlcm5hbWUmcXVvdDsgUGFyYW1ldGVyVHlwZT0mcXVvdDtzdHJpbmcmcXVvdDsgVmFsdWU9JnF1b3Q7cHVyZXVzZXImcXVvdDsgLyZndDsmbHQ7UGFyYW1ldGVyIFBhcmFtZXRlck5hbWU9JnF1b3Q7UGFzc3dvcmQmcXVvdDsgTGFiZWw9JnF1b3Q7UHVyZSBTdG9yYWdlIFBhc3N3b3JkJnF1b3Q7IFBhcmFtZXRlclR5cGU9JnF1b3Q7cGFzc3dvcmQmcXVvdDsgVmFsdWU9JnF1b3Q7JnF1b3Q7IC8mZ3Q7Jmx0O1BhcmFtZXRlciBQYXJhbWV0ZXJOYW1lPSZxdW90O0ZBSVAmcXVvdDsgTGFiZWw9JnF1b3Q7UHVyZSBTdG9yYWdlIElQIEFkZHJlc3MmcXVvdDsgUGFyYW1ldGVyVHlwZT0mcXVvdDtzdHJpbmcmcXVvdDsgVmFsdWU9JnF1b3Q7MTAuMS4xLjcwJnF1b3Q7IC8mZ3Q7Jmx0Oy9QYXJhbWV0ZXJzJmd0OyZsdDtPdXRwdXRQYXJhbWV0ZXJzJmd0OyZsdDtQYXJhbWV0ZXIgUGFyYW1ldGVyTmFtZT0mcXVvdDtIV1R5cGUmcXVvdDsgTGFiZWw9JnF1b3Q7SGFyZHdhcmUgVHlwZSZxdW90OyBQYXJhbWV0ZXJUeXBlPSZxdW90O3N0cmluZyZxdW90OyBWYWx1ZT0mcXVvdDtSdW5TY3JpcHQuSFdUeXBlJnF1b3Q7IC8mZ3Q7Jmx0O1BhcmFtZXRlciBQYXJhbWV0ZXJOYW1lPSZxdW90O0hXSW5kZXgmcXVvdDsgTGFiZWw9JnF1b3Q7SGFyZHdhcmUgSW5kZXgmcXVvdDsgUGFyYW1ldGVyVHlwZT0mcXVvdDtzdHJpbmcmcXVvdDsgVmFsdWU9JnF1b3Q7UnVuU2NyaXB0LkhXSW5kZXgmcXVvdDsgLyZndDsmbHQ7UGFyYW1ldGVyIFBhcmFtZXRlck5hbWU9JnF1b3Q7SFdTdGF0dXMmcXVvdDsgTGFiZWw9JnF1b3Q7SGFyZHdhcmUgU3RhdHVzJnF1b3Q7IFBhcmFtZXRlclR5cGU9JnF1b3Q7c3RyaW5nJnF1b3Q7IFZhbHVlPSZxdW90O1J1blNjcmlwdC5IV1N0YXR1cyZxdW90OyAvJmd0OyZsdDsvT3V0cHV0UGFyYW1ldGVycyZndDsmbHQ7L3htbCZndDsiIElEPSJ7Mzg0OWUyMDAtNGYwZi00NTE2LWJlNDEtNDQxYmIxZjNkZDk3fSIgVHlwZT0ie0I2RkE2RDhCLUVFQUEtNDdBNi04NDYzLTdGOUE0RjVCQkI2RX0iLz4KICA8TGlua01hbmFnZXIgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9Qb2xpY3lFeGVjdXRvciIgeG1sbnM6aT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPgogICAgPGhhc2hzZXQgeG1sbnM6ZDJwMT0iaHR0cDovL3NjaGVtYXMuZGF0YWNvbnRyYWN0Lm9yZy8yMDA0LzA3L1N5c3RlbSI+CiAgICAgIDxkMnAxOlR1cGxlT2ZzdHJpbmdzdHJpbmdzdHJpbmdzdHJpbmc+CiAgICAgICAgPGQycDE6bV9JdGVtMT4xZWYxNjY2ZS1mOTQ3LTRiNzQtOTBmMi00YjU2MDE0YjMwOTQuSFdUeXBlPC9kMnAxOm1fSXRlbTE+CiAgICAgICAgPGQycDE6bV9JdGVtMj5PdXRwdXRPYmplY3Q8L2QycDE6bV9JdGVtMj4KICAgICAgICA8ZDJwMTptX0l0ZW0zLz4KICAgICAgICA8ZDJwMTptX0l0ZW00PkhXVHlwZTwvZDJwMTptX0l0ZW00PgogICAgICA8L2QycDE6VHVwbGVPZnN0cmluZ3N0cmluZ3N0cmluZ3N0cmluZz4KICAgICAgPGQycDE6VHVwbGVPZnN0cmluZ3N0cmluZ3N0cmluZ3N0cmluZz4KICAgICAgICA8ZDJwMTptX0l0ZW0xPjFlZjE2NjZlLWY5NDctNGI3NC05MGYyLTRiNTYwMTRiMzA5NC5IV0luZGV4PC9kMnAxOm1fSXRlbTE+CiAgICAgICAgPGQycDE6bV9JdGVtMj5PdXRwdXRPYmplY3Q8L2QycDE6bV9JdGVtMj4KICAgICAgICA8ZDJwMTptX0l0ZW0zLz4KICAgICAgICA8ZDJwMTptX0l0ZW00PkhXSW5kZXg8L2QycDE6bV9JdGVtND4KICAgICAgPC9kMnAxOlR1cGxlT2ZzdHJpbmdzdHJpbmdzdHJpbmdzdHJpbmc+CiAgICAgIDxkMnAxOlR1cGxlT2ZzdHJpbmdzdHJpbmdzdHJpbmdzdHJpbmc+CiAgICAgICAgPGQycDE6bV9JdGVtMT4xZWYxNjY2ZS1mOTQ3LTRiNzQtOTBmMi00YjU2MDE0YjMwOTQuSFdTdGF0dXM8L2QycDE6bV9JdGVtMT4KICAgICAgICA8ZDJwMTptX0l0ZW0yPk91dHB1dE9iamVjdDwvZDJwMTptX0l0ZW0yPgogICAgICAgIDxkMnAxOm1fSXRlbTMvPgogICAgICAgIDxkMnAxOm1fSXRlbTQ+SFdTdGF0dXM8L2QycDE6bV9JdGVtND4KICAgICAgPC9kMnAxOlR1cGxlT2ZzdHJpbmdzdHJpbmdzdHJpbmdzdHJpbmc+CiAgICA8L2hhc2hzZXQ+CiAgPC9MaW5rTWFuYWdlcj4KICA8QWN0aXZpdHkgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vbmV0ZngvMjAwOS94YW1sL2FjdGl2aXRpZXMiIHhtbG5zOm1jPSJodHRwOi8vc2NoZW1hcy5vcGVueG1sZm9ybWF0cy5vcmcvbWFya3VwLWNvbXBhdGliaWxpdHkvMjAwNiIgeG1sbnM6bXZhPSJjbHItbmFtZXNwYWNlOk1pY3Jvc29mdC5WaXN1YWxCYXNpYy5BY3Rpdml0aWVzO2Fzc2VtYmx5PVN5c3RlbS5BY3Rpdml0aWVzIiB4bWxuczpwPSJjbHItbmFtZXNwYWNlOlBvbGljeUV4ZWN1dG9yO2Fzc2VtYmx5PVBvbGljeUV4ZWN1dGlvbkVuZ2luZSIgeG1sbnM6c2Fkcz0iaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9uZXRmeC8yMDEwL3hhbWwvYWN0aXZpdGllcy9kZWJ1Z2dlciIgeG1sbnM6c2FwPSJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL25ldGZ4LzIwMDkveGFtbC9hY3Rpdml0aWVzL3ByZXNlbnRhdGlvbiIgeG1sbnM6c2NnPSJjbHItbmFtZXNwYWNlOlN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljO2Fzc2VtYmx5PW1zY29ybGliIiB4bWxuczp4PSJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dpbmZ4LzIwMDYveGFtbCIgbWM6SWdub3JhYmxlPSJzYWRzIHNhcCIgeDpDbGFzcz0iUG9saWN5IEJ1aWxkZXIiPgogICAgPHg6TWVtYmVycz4KICAgICAgPHg6UHJvcGVydHkgTmFtZT0iUG9saWN5R1VJRCIgVHlwZT0iSW5Bcmd1bWVudCh4OlN0cmluZykiLz4KICAgIDwveDpNZW1iZXJzPgogICAgPHNhcDpWaXJ0dWFsaXplZENvbnRhaW5lclNlcnZpY2UuSGludFNpemU+NDkwLDU3MTwvc2FwOlZpcnR1YWxpemVkQ29udGFpbmVyU2VydmljZS5IaW50U2l6ZT4KICAgIDxtdmE6VmlzdWFsQmFzaWMuU2V0dGluZ3M+QXNzZW1ibHkgcmVmZXJlbmNlcyBhbmQgaW1wb3J0ZWQgbmFtZXNwYWNlcyBzZXJpYWxpemVkIGFzIFhNTCBuYW1lc3BhY2VzPC9tdmE6VmlzdWFsQmFzaWMuU2V0dGluZ3M+CiAgICA8cDpQb2xpY3lTZXF1ZW5jZSBEaXNwbGF5TmFtZT0iUG9saWN5IiBtdmE6VmlzdWFsQmFzaWMuU2V0dGluZ3M9IkFzc2VtYmx5IHJlZmVyZW5jZXMgYW5kIGltcG9ydGVkIG5hbWVzcGFjZXMgc2VyaWFsaXplZCBhcyBYTUwgbmFtZXNwYWNlcyIgc2FwOlZpcnR1YWxpemVkQ29udGFpbmVyU2VydmljZS5IaW50U2l6ZT0iNDkwLDU3MSI+CiAgICAgIDxwOlBvbGljeVNlcXVlbmNlLkFjdGl2aXRpZXM+CiAgICAgICAgPHA6UnVuU2NyaXB0IEFzc2VtYmx5TmFtZT0iUG9saWN5RXhlY3V0aW9uRW5naW5lLCBWZXJzaW9uPTEuNy4yLjUzLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiIERpc3BsYXlOYW1lPSJSdW5TY3JpcHQiIE1vbmlrZXI9IjFlZjE2NjZlLWY5NDctNGI3NC05MGYyLTRiNTYwMTRiMzA5NCIgT3V0UHV0XzY0PSJbUnVuU2NyaXB0X091dFB1dF82NF8xXSIgUmVzdWx0PSJbUnVuU2NyaXB0X1Jlc3VsdF8xXSIgUmVzdWx0U3RyaW5nPSJbUnVuU2NyaXB0X1Jlc3VsdFN0cmluZ18xXSIgUmVzdWx0c194NjQ9IltSdW5TY3JpcHRfUmVzdWx0c194NjRfMV0iIFJ1bkFzQ3VycmVudExvZ2dlZE9uVXNlcj0iVHJ1ZSIgU2NyaXB0RXhlY3V0aW9uTWV0aG9kPSJFeGVjdXRlRGVidWciIFR5cGVOYW1lPSJSdW5TY3JpcHQiIGdlbkFyZ0V2ZW50PSJiZjA1MjlkNy03N2I1LTQxYTgtYjMwZi0wZTI1ZDZhOTdjNzEiIG1fYlRleHRMaW5rQ2hhbmdlPSJGYWxzZSIgc2FwOlZpcnR1YWxpemVkQ29udGFpbmVyU2VydmljZS5IaW50U2l6ZT0iNDU0LDM0OCIgc2NyaXB0PSJKRlZ6WlhKdVlXMWxJRDBnSWlRbGFXUWxWWE5sY201aGJXVWxhV1FsSWcwS0pGQmhjM04zYjNKa0lEMGdJaVFsYVdRbFVHRnpjM2R2Y21RbGFXUWxJZzBLSkVaQlNWQWdQU0FpSkNWcFpDVkdRVWxRSldsa0pTSU5DZzBLSkZObFkxQmhjM04zYjNKa0lEMGdRMjl1ZG1WeWRGUnZMVk5sWTNWeVpWTjBjbWx1WnlBa1VHRnpjM2R2Y21RZ0xVRnpVR3hoYVc1VVpYaDBJQzFHYjNKalpRMEtKRTE1UTNKbFpDQTlJRTVsZHkxUFltcGxZM1FnVTNsemRHVnRMazFoYm1GblpXMWxiblF1UVhWMGIyMWhkR2x2Ymk1UVUwTnlaV1JsYm5ScFlXd2dLQ1JWYzJWeWJtRnRaU3dnSkZObFkxQmhjM04zYjNKa0tRMEtEUW9rUm14aGMyaEJjbkpoZVNBOUlFNWxkeTFRWm1GQmNuSmhlU0F0Ulc1a1VHOXBiblFnSkVaQlNWQWdMVU55WldSbGJuUnBZV3h6SUNSTmVVTnlaV1FnTFVsbmJtOXlaVU5sY25ScFptbGpZWFJsUlhKeWIzSU5DZzBLSkVGc2JFaFhVM1JoZEhWeklEMGdSMlYwTFZCbVlVRnNiRWhoY21SM1lYSmxRWFIwY21saWRYUmxjeUF0UVhKeVlYa2dKRVpzWVhOb1FYSnlZWGtOQ2cwS1ptOXlaV0ZqYUNBb0pFaFhVM1JoZEhWeklHbHVJQ1JCYkd4SVYxTjBZWFIxY3lrZ0RRcDdEUW9nSUNBZ2FXWWdLQ2drU0ZkVGRHRjBkWE11YzNSaGRIVnpJQzF1WlNBbmIyc25LU0F0WVc1a0lDZ2tTRmRUZEdGMGRYTXVjM1JoZEhWeklDMXVaU0FuYm05MFgybHVjM1JoYkd4bFpDY3BLUTBLSUNBZ0lIc05DaUFnSUNBZ0lDQWdKRWhYVG1GdFpTQXJQU0FrU0ZkVGRHRjBkWE11Ym1GdFpTQXJJQ0lnSUNBZ0lnMEtJQ0FnSUNBZ0lDQWtTRmRKYm1SbGVDQXJQU0FrU0ZkVGRHRjBkWE11YVc1a1pYZ2dLeUFpSUNBZ0lDSU5DaUFnSUNBZ0lDQWdKRWhYVTNSaGRDQXJQU0FrU0ZkVGRHRjBkWE11YzNSaGRIVnpJQ3NnSWlBZ0lDQWlEUW9nSUNBZ2ZRMEtmUTBLRFFwcFppQW9KRWhYVG1GdFpTQXRaWEVnSkc1MWJHd3BEUXA3RFFvZ0lDQWdKRWhYVTNSaGRDQTlJQ0pCYkd3Z1NHRnlaSGRoY21VZ2MzUmhkSFZ6SUdseklFOUxJZzBLSUNBZ0lDUklWMGx1WkdWNElEMGdJakF3TURBaURRb2dJQ0FnSkVoWFRtRnRaU0E5SUNKQmJHd2dTR0Z5WkhkaGNtVWlEUXA5RFFva0pXbGtKVWhYVkhsd1pTVnBaQ1VnUFNBa1NGZE9ZVzFsRFFva0pXbGtKVWhYU1c1a1pYZ2xhV1FsSUQwZ0pFaFhTVzVrWlhnTkNpUWxhV1FsU0ZkVGRHRjBkWE1sYVdRbElEMGdKRWhYVTNSaGRBPT0iPgogICAgICAgICAgPHA6UnVuU2NyaXB0LkluQXJncz4KICAgICAgICAgICAgPHA6SW5BcmcgQXJnVHlwZT0ic3RyaW5nIiBEaXNwbGF5QXJnPSJJbnB1dCBQYXJhbWV0ZXJzLlB1cmUgU3RvcmFnZSBVc2VybmFtZSIgRGlzcGxheU5hbWU9IlVzZXJuYW1lIiBJdGVtPSJ7eDpOdWxsfSIgSXRlbVByb3A9Int4Ok51bGx9IiBOYW1lPSJVc2VybmFtZSIgaXNSZXF1aXJlZD0iVHJ1ZSIgeDpLZXk9IlVzZXJuYW1lIj4KICAgICAgICAgICAgICA8cDpJbkFyZy5Bcmc+CiAgICAgICAgICAgICAgICA8SW5Bcmd1bWVudCB4OlR5cGVBcmd1bWVudHM9Ing6U3RyaW5nIj5bVXNlcm5hbWVdPC9JbkFyZ3VtZW50PgogICAgICAgICAgICAgIDwvcDpJbkFyZy5Bcmc+CiAgICAgICAgICAgIDwvcDpJbkFyZz4KICAgICAgICAgICAgPHA6SW5BcmcgQXJnVHlwZT0icGFzc3dvcmQiIERpc3BsYXlBcmc9IklucHV0IFBhcmFtZXRlcnMuUHVyZSBTdG9yYWdlIFBhc3N3b3JkIiBEaXNwbGF5TmFtZT0iUGFzc3dvcmQiIEl0ZW09Int4Ok51bGx9IiBJdGVtUHJvcD0ie3g6TnVsbH0iIE5hbWU9IlBhc3N3b3JkIiBpc1JlcXVpcmVkPSJUcnVlIiB4OktleT0iUGFzc3dvcmQiPgogICAgICAgICAgICAgIDxwOkluQXJnLkFyZz4KICAgICAgICAgICAgICAgIDxJbkFyZ3VtZW50IHg6VHlwZUFyZ3VtZW50cz0icDpQYXNzd29yZCI+W1Bhc3N3b3JkXTwvSW5Bcmd1bWVudD4KICAgICAgICAgICAgICA8L3A6SW5BcmcuQXJnPgogICAgICAgICAgICA8L3A6SW5Bcmc+CiAgICAgICAgICAgIDxwOkluQXJnIEFyZ1R5cGU9InN0cmluZyIgRGlzcGxheUFyZz0iSW5wdXQgUGFyYW1ldGVycy5QdXJlIFN0b3JhZ2UgSVAgQWRkcmVzcyIgRGlzcGxheU5hbWU9IkZBSVAiIEl0ZW09Int4Ok51bGx9IiBJdGVtUHJvcD0ie3g6TnVsbH0iIE5hbWU9IkZBSVAiIGlzUmVxdWlyZWQ9IlRydWUiIHg6S2V5PSJGQUlQIj4KICAgICAgICAgICAgICA8cDpJbkFyZy5Bcmc+CiAgICAgICAgICAgICAgICA8SW5Bcmd1bWVudCB4OlR5cGVBcmd1bWVudHM9Ing6U3RyaW5nIj5bRkFJUF08L0luQXJndW1lbnQ+CiAgICAgICAgICAgICAgPC9wOkluQXJnLkFyZz4KICAgICAgICAgICAgPC9wOkluQXJnPgogICAgICAgICAgPC9wOlJ1blNjcmlwdC5JbkFyZ3M+CiAgICAgICAgICA8cDpSdW5TY3JpcHQuT3V0QXJncz4KICAgICAgICAgICAgPHA6T3V0QXJnIEFyZ1R5cGU9InN0cmluZyIgRGlzcGxheU5hbWU9IkhXVHlwZSIgTmFtZT0iSFdUeXBlIiB4OktleT0iSFdUeXBlIj4KICAgICAgICAgICAgICA8cDpPdXRBcmcuQXJnPgogICAgICAgICAgICAgICAgPE91dEFyZ3VtZW50IHg6VHlwZUFyZ3VtZW50cz0ieDpTdHJpbmciPltSdW5TY3JpcHRfSFdUeXBlXzRdPC9PdXRBcmd1bWVudD4KICAgICAgICAgICAgICA8L3A6T3V0QXJnLkFyZz4KICAgICAgICAgICAgPC9wOk91dEFyZz4KICAgICAgICAgICAgPHA6T3V0QXJnIEFyZ1R5cGU9InN0cmluZyIgRGlzcGxheU5hbWU9IkhXSW5kZXgiIE5hbWU9IkhXSW5kZXgiIHg6S2V5PSJIV0luZGV4Ij4KICAgICAgICAgICAgICA8cDpPdXRBcmcuQXJnPgogICAgICAgICAgICAgICAgPE91dEFyZ3VtZW50IHg6VHlwZUFyZ3VtZW50cz0ieDpTdHJpbmciPltSdW5TY3JpcHRfSFdJbmRleF81XTwvT3V0QXJndW1lbnQ+CiAgICAgICAgICAgICAgPC9wOk91dEFyZy5Bcmc+CiAgICAgICAgICAgIDwvcDpPdXRBcmc+CiAgICAgICAgICAgIDxwOk91dEFyZyBBcmdUeXBlPSJzdHJpbmciIERpc3BsYXlOYW1lPSJIV1N0YXR1cyIgTmFtZT0iSFdTdGF0dXMiIHg6S2V5PSJIV1N0YXR1cyI+CiAgICAgICAgICAgICAgPHA6T3V0QXJnLkFyZz4KICAgICAgICAgICAgICAgIDxPdXRBcmd1bWVudCB4OlR5cGVBcmd1bWVudHM9Ing6U3RyaW5nIj5bUnVuU2NyaXB0X0hXU3RhdHVzXzZdPC9PdXRBcmd1bWVudD4KICAgICAgICAgICAgICA8L3A6T3V0QXJnLkFyZz4KICAgICAgICAgICAgPC9wOk91dEFyZz4KICAgICAgICAgIDwvcDpSdW5TY3JpcHQuT3V0QXJncz4KICAgICAgICA8L3A6UnVuU2NyaXB0PgogICAgICA8L3A6UG9saWN5U2VxdWVuY2UuQWN0aXZpdGllcz4KICAgICAgPHA6UG9saWN5U2VxdWVuY2UuVmFyaWFibGVzPgogICAgICAgIDxWYXJpYWJsZSBEZWZhdWx0PSJwdXJldXNlciIgTmFtZT0iVXNlcm5hbWUiIHg6VHlwZUFyZ3VtZW50cz0ieDpTdHJpbmciLz4KICAgICAgICA8VmFyaWFibGUgTmFtZT0iUGFzc3dvcmQiIHg6VHlwZUFyZ3VtZW50cz0icDpQYXNzd29yZCI+CiAgICAgICAgICA8VmFyaWFibGUuRGVmYXVsdD4KICAgICAgICAgICAgPExpdGVyYWwgeDpUeXBlQXJndW1lbnRzPSJwOlBhc3N3b3JkIj4KICAgICAgICAgICAgICA8cDpQYXNzd29yZCBQYXNzd29yZFZhbHVlPSJub25lIi8+CiAgICAgICAgICAgIDwvTGl0ZXJhbD4KICAgICAgICAgIDwvVmFyaWFibGUuRGVmYXVsdD4KICAgICAgICA8L1ZhcmlhYmxlPgogICAgICAgIDxWYXJpYWJsZSBEZWZhdWx0PSIxMC4xLjEuNzAiIE5hbWU9IkZBSVAiIHg6VHlwZUFyZ3VtZW50cz0ieDpTdHJpbmciLz4KICAgICAgICA8VmFyaWFibGUgTmFtZT0iUnVuU2NyaXB0X0hXVHlwZV80IiB4OlR5cGVBcmd1bWVudHM9Ing6U3RyaW5nIi8+CiAgICAgICAgPFZhcmlhYmxlIE5hbWU9IlJ1blNjcmlwdF9IV0luZGV4XzUiIHg6VHlwZUFyZ3VtZW50cz0ieDpTdHJpbmciLz4KICAgICAgICA8VmFyaWFibGUgTmFtZT0iUnVuU2NyaXB0X0hXU3RhdHVzXzYiIHg6VHlwZUFyZ3VtZW50cz0ieDpTdHJpbmciLz4KICAgICAgICA8VmFyaWFibGUgTmFtZT0iUnVuU2NyaXB0X091dFB1dF82NF8xIiB4OlR5cGVBcmd1bWVudHM9Ing6U3RyaW5nIi8+CiAgICAgICAgPFZhcmlhYmxlIE5hbWU9IlJ1blNjcmlwdF9SZXN1bHRTdHJpbmdfMSIgeDpUeXBlQXJndW1lbnRzPSJ4OlN0cmluZyIvPgogICAgICAgIDxWYXJpYWJsZSBOYW1lPSJSdW5TY3JpcHRfUmVzdWx0c194NjRfMSIgeDpUeXBlQXJndW1lbnRzPSJzY2c6SUVudW1lcmFibGUoeDpPYmplY3QpIi8+CiAgICAgICAgPFZhcmlhYmxlIE5hbWU9IlJ1blNjcmlwdF9SZXN1bHRfMSIgeDpUeXBlQXJndW1lbnRzPSJ4OkRvdWJsZSIvPgogICAgICA8L3A6UG9saWN5U2VxdWVuY2UuVmFyaWFibGVzPgogICAgPC9wOlBvbGljeVNlcXVlbmNlPgogIDwvQWN0aXZpdHk+CjwvUG9saWN5Pg==</ampdata>
+	</automationmanagerpolicy>
+
+</service>
+<?N-able-SDK version=3.0?>

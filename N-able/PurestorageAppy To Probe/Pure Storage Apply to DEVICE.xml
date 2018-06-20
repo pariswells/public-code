@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceTemplates syntaxversion="2.1.0.0" xmlns="http://www.n-able.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.n-able.com file:///opt/nable/var/ncsai/etc/servicetemplate_v2_1_0_0.xsd">
+    <serviceTemplate id="-1" version="2.1.0.0">
+        <name>Pure Storage (Huon IT) Apply to DEVICE</name>
+        <description>Apply to PURE DEVICE. Connectivity and port 443. </description>
+        <deviceClass>SAN</deviceClass>
+        <removesServices>false</removesServices>
+        <services>
+            <service autoReapply="false" id="101"
+                isCustomService="false" name="Connectivity">
+                <configurationName>Connectivity</configurationName>
+                <action actionId="2"/>
+                <parameters>
+                    <parameter key="scan_interval" parameterId="10100"
+                        type="1" useAssetInfo="false"
+                        useDefaultValue="true" value="5"/>
+                    <parameter key="timeout_value" parameterId="10101"
+                        type="1" useAssetInfo="false"
+                        useDefaultValue="true" value="30"/>
+                    <parameter key="interval" parameterId="10102"
+                        type="1" useAssetInfo="false"
+                        useDefaultValue="true" value="1000"/>
+                    <parameter key="packet_number" parameterId="10103"
+                        type="1" useAssetInfo="false"
+                        useDefaultValue="true" value="5"/>
+                    <parameter key="packet_size" parameterId="10104"
+                        type="1" useAssetInfo="false"
+                        useDefaultValue="true" value="32"/>
+                    <parameter key="default_ttl" parameterId="10105"
+                        type="1" useAssetInfo="false"
+                        useDefaultValue="true" value="255"/>
+                </parameters>
+                <thresholds>
+                    <threshold detailName="PINGPLP"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="45" valueLow="0" valueString="" valueStringEval=""/>
+                    <threshold detailName="PINGPLP"
+                        monitoringType="Default" taskState="4"
+                        valueHigh="85" valueLow="35" valueString="" valueStringEval=""/>
+                    <threshold detailName="PINGPLP"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="100" valueLow="80" valueString="" valueStringEval=""/>
+                    <threshold detailName="PINGRTT"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="200" valueLow="0" valueString="" valueStringEval=""/>
+                    <threshold detailName="PINGRTT"
+                        monitoringType="Default" taskState="4"
+                        valueHigh="400" valueLow="190" valueString="" valueStringEval=""/>
+                    <threshold detailName="PINGRTT"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="600000" valueLow="390" valueString="" valueStringEval=""/>
+                    <threshold detailName="PINGTTL"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="255" valueLow="2" valueString="" valueStringEval=""/>
+                    <threshold detailName="PINGTTL"
+                        monitoringType="Default" taskState="4"
+                        valueHigh="1" valueLow="1" valueString="" valueStringEval=""/>
+                    <threshold detailName="PINGTTL"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="0" valueLow="0" valueString="" valueStringEval=""/>
+                    <threshold detailName="PING_DNSR"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="1" valueLow="1" valueString="" valueStringEval=""/>
+                    <threshold detailName="PING_DNSR"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="0" valueLow="0" valueString="" valueStringEval=""/>
+                </thresholds>
+                <selfHealing>
+                    <selfHealingProperty key="waitIntervalAfterSelfHeal" value="3"/>
+                    <selfHealingProperty
+                        key="retryMonitoringCountBeforeSelfHeal" value="3"/>
+                    <selfHealingProperty
+                        key="retryMonitoringCountAfterSelfHeal" value="3"/>
+                    <selfHealingProperty key="notificationType" value="FollowStandardNotificationRules"/>
+                    <selfHealingProperty
+                        key="retryMonitoringBeforeSelfHeal" value="false"/>
+                    <selfHealingProperty
+                        key="retryMonitoringIntervalBeforeSelfHeal" value="10"/>
+                    <selfHealingProperty
+                        key="retryMonitoringIntervalAfterSelfHeal" value="10"/>
+                    <selfHealingProperty key="executeSelfHeal" value="false"/>
+                    <selfHealingProperty key="selectedStatuses" value=""/>
+                </selfHealing>
+            </service>
+            <service autoReapply="false" id="115"
+                isCustomService="false" name="TCP Port Availability">
+                <configurationName>TCP Port Availability</configurationName>
+                <action actionId="2"/>
+                <parameters>
+                    <parameter key="scan_interval" parameterId="11500"
+                        type="1" useAssetInfo="false"
+                        useDefaultValue="true" value="5"/>
+                    <parameter key="timeout_value" parameterId="11502"
+                        type="1" useAssetInfo="false"
+                        useDefaultValue="true" value="30"/>
+                    <parameter key="port" parameterId="11503" type="1"
+                        useAssetInfo="false" useDefaultValue="false" value="443"/>
+                    <parameter key="send_cmd_string" parameterId="11504"
+                        type="2" useAssetInfo="false"
+                        useDefaultValue="false" value=""/>
+                    <parameter key="validating_string"
+                        parameterId="11505" type="2"
+                        useAssetInfo="false" useDefaultValue="false" value=""/>
+                </parameters>
+                <thresholds>
+                    <threshold detailName="GENERICA"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="1" valueLow="1" valueString="" valueStringEval=""/>
+                    <threshold detailName="GENERICA"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="0" valueLow="0" valueString="" valueStringEval=""/>
+                    <threshold detailName="GENERICTCP_DNSR"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="1" valueLow="1" valueString="" valueStringEval=""/>
+                    <threshold detailName="GENERICTCP_DNSR"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="0" valueLow="0" valueString="" valueStringEval=""/>
+                    <threshold detailName="GENERICTCP_RESP"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="10000" valueLow="0" valueString="" valueStringEval=""/>
+                    <threshold detailName="GENERICTCP_RESP"
+                        monitoringType="Default" taskState="4"
+                        valueHigh="20000" valueLow="9500" valueString="" valueStringEval=""/>
+                    <threshold detailName="GENERICTCP_RESP"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="600000" valueLow="19500"
+                        valueString="" valueStringEval=""/>
+                </thresholds>
+                <selfHealing>
+                    <selfHealingProperty key="waitIntervalAfterSelfHeal" value="3"/>
+                    <selfHealingProperty
+                        key="retryMonitoringCountBeforeSelfHeal" value="3"/>
+                    <selfHealingProperty
+                        key="retryMonitoringCountAfterSelfHeal" value="3"/>
+                    <selfHealingProperty key="notificationType" value="FollowStandardNotificationRules"/>
+                    <selfHealingProperty
+                        key="retryMonitoringBeforeSelfHeal" value="false"/>
+                    <selfHealingProperty
+                        key="retryMonitoringIntervalBeforeSelfHeal" value="10"/>
+                    <selfHealingProperty
+                        key="retryMonitoringIntervalAfterSelfHeal" value="10"/>
+                    <selfHealingProperty key="executeSelfHeal" value="false"/>
+                    <selfHealingProperty key="selectedStatuses" value=""/>
+                </selfHealing>
+            </service>
+        </services>
+    </serviceTemplate>
+</serviceTemplates>

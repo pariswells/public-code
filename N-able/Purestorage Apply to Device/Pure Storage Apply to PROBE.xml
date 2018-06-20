@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceTemplates syntaxversion="2.1.0.0" xmlns="http://www.n-able.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.n-able.com file:///opt/nable/var/ncsai/etc/servicetemplate_v2_1_0_0.xsd">
+    <serviceTemplate id="-1" version="2.1.0.0">
+        <name>Pure Storage(Huon IT) Apply to PROBE</name>
+        <description>Apply to Client PROBE SERVER. 
+Template to include Aggregate Space, Hardware Status, Volume Status</description>
+        <deviceClass>SAN</deviceClass>
+        <removesServices>false</removesServices>
+        <services>
+            <service autoReapply="false" id="1328271"
+                isCustomService="true" name="Pure Storage Hardware Status">
+                <configurationName>Pure Storage Hardware Status</configurationName>
+                <action actionId="2"/>
+                <parameters>
+                    <parameter key="scan_interval"
+                        parameterId="132827100" type="2"
+                        useAssetInfo="false" useDefaultValue="true" value="0 0 14 * * ? *"/>
+                    <parameter key="Username" parameterId="132827101"
+                        type="2" useAssetInfo="false"
+                        useDefaultValue="true" value="pureuser"/>
+                    <parameter key="Password" parameterId="132827102"
+                        type="2" useAssetInfo="false"
+                        useDefaultValue="true" value="Hot3lCar@"/>
+                    <parameter key="FAIP" parameterId="132827103"
+                        type="2" useAssetInfo="false"
+                        useDefaultValue="true" value="10.1.1.70"/>
+                    <parameter key="serviceIdentifier"
+                        parameterId="132827105" type="2"
+                        useAssetInfo="false" useDefaultValue="false" value=""/>
+                </parameters>
+                <thresholds>
+                    <threshold detailName="SD1328271_HWIndex"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="1" valueLow="1" valueString="000000" valueStringEval="contain"/>
+                    <threshold detailName="SD1328271_HWIndex"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="0" valueLow="0" valueString="000000" valueStringEval="contain"/>
+                    <threshold detailName="SD1328271_HWStatus"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="1" valueLow="1" valueString="well" valueStringEval="contain"/>
+                    <threshold detailName="SD1328271_HWStatus"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="0" valueLow="0" valueString="well" valueStringEval="contain"/>
+                    <threshold detailName="SD1328271_HWType"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="1" valueLow="1" valueString="All" valueStringEval="contain"/>
+                    <threshold detailName="SD1328271_HWType"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="0" valueLow="0" valueString="All" valueStringEval="contain"/>
+                </thresholds>
+                <selfHealing>
+                    <selfHealingProperty key="waitIntervalAfterSelfHeal" value="3"/>
+                    <selfHealingProperty
+                        key="retryMonitoringCountBeforeSelfHeal" value="3"/>
+                    <selfHealingProperty
+                        key="retryMonitoringCountAfterSelfHeal" value="3"/>
+                    <selfHealingProperty key="notificationType" value="FollowStandardNotificationRules"/>
+                    <selfHealingProperty
+                        key="retryMonitoringBeforeSelfHeal" value="false"/>
+                    <selfHealingProperty
+                        key="retryMonitoringIntervalBeforeSelfHeal" value="10"/>
+                    <selfHealingProperty
+                        key="retryMonitoringIntervalAfterSelfHeal" value="10"/>
+                    <selfHealingProperty key="executeSelfHeal" value="false"/>
+                    <selfHealingProperty key="selectedStatuses" value=""/>
+                </selfHealing>
+            </service>
+            <service autoReapply="false" id="1772348"
+                isCustomService="true" name="Pure Storage Aggregate Space Status">
+                <configurationName>Pure Storage Aggregate Space Status</configurationName>
+                <action actionId="2"/>
+                <parameters>
+                    <parameter key="scan_interval"
+                        parameterId="177234800" type="2"
+                        useAssetInfo="false" useDefaultValue="true" value="0 0 0/1 * * ? *"/>
+                    <parameter key="Username" parameterId="177234801"
+                        type="2" useAssetInfo="false"
+                        useDefaultValue="true" value="pureuser"/>
+                    <parameter key="Password" parameterId="177234802"
+                        type="2" useAssetInfo="false"
+                        useDefaultValue="true" value="Hot3lCar@"/>
+                    <parameter key="FAIP" parameterId="177234803"
+                        type="2" useAssetInfo="false"
+                        useDefaultValue="true" value="10.1.1.70"/>
+                    <parameter key="serviceIdentifier"
+                        parameterId="177234805" type="2"
+                        useAssetInfo="false" useDefaultValue="false" value=""/>
+                </parameters>
+                <thresholds>
+                    <threshold detailName="SD1772348_SharedSpace"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="9223372036854775807" valueLow="0"
+                        valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_SharedSpace"
+                        monitoringType="Default" taskState="4"
+                        valueHigh="0" valueLow="-1" valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_SharedSpace"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="-1" valueLow="-9223372036854775808"
+                        valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_SpaceUsage"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="85" valueLow="0" valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_SpaceUsage"
+                        monitoringType="Default" taskState="4"
+                        valueHigh="95" valueLow="85" valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_SpaceUsage"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="100" valueLow="95" valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_TotalSpace"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="9223372036854775807" valueLow="1"
+                        valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_TotalSpace"
+                        monitoringType="Default" taskState="4"
+                        valueHigh="1" valueLow="0" valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_TotalSpace"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="0" valueLow="-9223372036854775808"
+                        valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_TotalUsed"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="9223372036854775807" valueLow="0"
+                        valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_TotalUsed"
+                        monitoringType="Default" taskState="4"
+                        valueHigh="0" valueLow="-1" valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_TotalUsed"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="-1" valueLow="-9223372036854775808"
+                        valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_UsedSpace"
+                        monitoringType="Default" taskState="3"
+                        valueHigh="9223372036854775807" valueLow="0"
+                        valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_UsedSpace"
+                        monitoringType="Default" taskState="4"
+                        valueHigh="0" valueLow="-1" valueString="" valueStringEval=""/>
+                    <threshold detailName="SD1772348_UsedSpace"
+                        monitoringType="Default" taskState="5"
+                        valueHigh="-1" valueLow="-9223372036854775808"
+                        valueString="" valueStringEval=""/>
+                </thresholds>
+                <selfHealing>
+                    <selfHealingProperty key="waitIntervalAfterSelfHeal" value="3"/>
+                    <selfHealingProperty
+                        key="retryMonitoringCountBeforeSelfHeal" value="3"/>
+                    <selfHealingProperty
+                        key="retryMonitoringCountAfterSelfHeal" value="3"/>
+                    <selfHealingProperty key="notificationType" value="FollowStandardNotificationRules"/>
+                    <selfHealingProperty
+                        key="retryMonitoringBeforeSelfHeal" value="false"/>
+                    <selfHealingProperty
+                        key="retryMonitoringIntervalBeforeSelfHeal" value="10"/>
+                    <selfHealingProperty
+                        key="retryMonitoringIntervalAfterSelfHeal" value="10"/>
+                    <selfHealingProperty key="executeSelfHeal" value="false"/>
+                    <selfHealingProperty key="selectedStatuses" value=""/>
+                </selfHealing>
+            </service>
+        </services>
+    </serviceTemplate>
+</serviceTemplates>
