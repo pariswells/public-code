@@ -167,4 +167,5 @@ $script64 = (Invoke-RestMethod -Uri $detailuri -Headers $authToken -Method Get).
 #Decode Base64 into Scripts
 $decodedscript = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($script64))
 #output File
-New-Item -Path . -Name $script.fileName -ItemType "file" -Value $decodedscript
+$scriptFileName = $($scriptarray | where {$_.id -eq $scriptid}).fileName
+New-Item -Path . -Name $scriptFileName -ItemType "file" -Value $decodedscript
