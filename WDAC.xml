@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SiPolicy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" PolicyType="Base Policy" xmlns="urn:schemas-microsoft-com:sipolicy">
+  <VersionEx>10.0.2.9</VersionEx>
+  <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
+  <PolicyID>{5E21AA3F-6F35-4B7A-A9D1-E7B4FE63573C}</PolicyID>
+  <BasePolicyID>{%E21AA3F-6F35-4B7A-A9D1-E7B4FE63573C}</BasePolicyID>
+  <Rules>
+    <Rule>
+      <Option>Enabled:Unsigned System Integrity Policy</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Advanced Boot Options Menu</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:UMCI</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Inherit Default Policy</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Update Policy No Reboot</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Managed Installer</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Boot Audit On Failure</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Unsigned System Integrity Policy</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Advanced Boot Options Menu</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:UMCI</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Inherit Default Policy</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Update Policy No Reboot</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Allow Supplemental Policies</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Managed Installer</Option>
+    </Rule>
+    <Rule>
+      <Option>Required:Enforce Store Applications</Option>
+    </Rule>
+  </Rules>
+  <EKUs>
+    <EKU ID="ID_EKU_STORE" Value="010A2B0601040182374C0301" FriendlyName="Windows Store EKU - 1.3.6.1.4.1.311.76.3.1 Windows Store" />
+  </EKUs>
+  <FileRules>
+    <FileAttrib ID="ID_FILEATTRIB_F_4_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\TeamViewer_Resource_ar.dll FileAttribute" FileName="TeamViewer_Resource.dll" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\TeamViewer_StaticRes.dll FileAttribute" FileName="TeamViewer_StaticRes.dll" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\x64\TeamViewerVPN.sy_ FileAttribute" FileName="teamviewervpn.sys" MinimumFileVersion="9.24.6.601" />
+    <FileAttrib ID="ID_FILEATTRIB_F_11_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\x64\TVMonitor.sy_ FileAttribute" FileName="TVMonitor.sys" MinimumFileVersion="1.2.0.0" />
+    <Allow ID="ID_ALLOW_A_0_0_1_0_0_0_0_0" FriendlyName="Allow files based on file attributes: Ninite and Ninite" FileDescription="Ninite" ProductName="Ninite" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\TeamViewer.exe FileAttribute" FileName="TeamViewer.exe" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\TeamViewer_Desktop.exe FileAttribute" FileName="TeamViewer_Desktop.exe" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\TeamViewer_Note.exe FileAttribute" FileName="TeamViewer_Note.exe" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\TeamViewer_Service.exe FileAttribute" FileName="TeamViewer_Service.exe" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_9_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\TVWebRTC.dll FileAttribute" FileName="TVWebRTC.dll" MinimumFileVersion="15.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_A_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\tv_w32.dll FileAttribute" FileName="tv_w32.dll" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_B_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\tv_w32.exe FileAttribute" FileName="tv_w32.exe" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_C_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\tv_x64.dll FileAttribute" FileName="tv_x64.dll" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_D_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\tv_x64.exe FileAttribute" FileName="tv_x64.exe" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_14_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\Printer\x64\TeamViewer_XPSDriverFilter.dll FileAttribute" FileName="TeamViewer_XPSDriverFilter.dll" MinimumFileVersion="1.2022.413.641" />
+    <FileAttrib ID="ID_FILEATTRIB_F_15_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\outlook\ManagedAggregator.dll FileAttribute" FileName="ManagedAggregator.dll" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_16_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\outlook\TeamViewerMeetingAddIn.dll FileAttribute" FileName="TeamViewerMeetingAddIn.dll" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_17_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\outlook\TeamViewerMeetingAddinShim.dll FileAttribute" FileName="TeamViewerMeetingAddinShim.dll" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_18_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\outlook\TeamViewerMeetingAddinShim64.dll FileAttribute" FileName="TeamViewerMeetingAddinShim64.dll" MinimumFileVersion="15.39.6.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_13_0_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files\TeamViewer\utils\MicrosoftEdgeWebview2Setup.exe FileAttribute" FileName="MicrosoftEdgeUpdateSetup.exe" MinimumFileVersion="1.3.173.45" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\CommunicationLibrary.dll FileAttribute" FileName="CommunicationLibrary.dll" MinimumFileVersion="1.0.0.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_20_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\Interfaces.dll FileAttribute" FileName="Interfaces.dll" MinimumFileVersion="2022.12.413.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_23_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\Janus.dll FileAttribute" FileName="Janus.dll" MinimumFileVersion="21.0.3.27" />
+    <FileAttrib ID="ID_FILEATTRIB_F_24_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\LabTechCommon.dll FileAttribute" FileName="LabTechCommon.dll" MinimumFileVersion="2022.12.416.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_25_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\LabTechCommonBase.dll FileAttribute" FileName="LabTechCommonBase.dll" MinimumFileVersion="2022.12.418.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_26_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\LabTechHelpers.dll FileAttribute" FileName="LabTechHelpers.dll" MinimumFileVersion="2022.12.416.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_28_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\LTSVC.exe FileAttribute" FileName="LTSVC.exe" MinimumFileVersion="220.440.8378.27678" />
+    <FileAttrib ID="ID_FILEATTRIB_F_29_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\LTSvcMon.exe FileAttribute" FileName="LTSvcMon.exe" MinimumFileVersion="220.440.8378.27696" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2A_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\LTTray.exe FileAttribute" FileName="LTTray.exe" MinimumFileVersion="220.440.8378.27691" />
+    <FileAttrib ID="ID_FILEATTRIB_F_31_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\PluginLoadingHelpers.dll FileAttribute" FileName="PluginLoadingHelpers.dll" MinimumFileVersion="2022.12.418.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\ConnectWise.System.Wrappers.dll FileAttribute" FileName="ConnectWise.System.Wrappers.dll" MinimumFileVersion="1.0.5.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\CWA.Components.SystemEventing.dll FileAttribute" FileName="CWA.Components.SystemEventing.dll" MinimumFileVersion="1.0.1.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3D_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\plugins\ScreenConnectRemotePlugin.dll FileAttribute" FileName="ScreenConnectRemotePlugin.dll" MinimumFileVersion="6.6.20005.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_27_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\labvnc.exe FileAttribute" FileName="LabVNC.exe" MinimumFileVersion="1.1.9.6" />
+    <FileAttrib ID="ID_FILEATTRIB_F_39_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\vnchooks.dll FileAttribute" FileName="VNCHooks.dll" MinimumFileVersion="1.1.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2B_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\nsoftware.IPWorks.dll FileAttribute" FileName="nsoftware.IPWorks.dll" MinimumFileVersion="9.0.5512.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2C_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\nsoftware.IPWorks.System.dll FileAttribute" FileName="nsoftware.IPWorks.System.dll" MinimumFileVersion="10.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2D_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\nsoftware.IPWorksSSH.dll FileAttribute" FileName="nsoftware.IPWorksSSH.dll" MinimumFileVersion="9.0.5512.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2E_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\nsoftware.IPWorksSSH.System.dll FileAttribute" FileName="nsoftware.IPWorksSSH.System.dll" MinimumFileVersion="10.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2F_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\nsoftware.IPWorksSSNMP.dll FileAttribute" FileName="nsoftware.IPWorksSSNMP.dll" MinimumFileVersion="9.0.5512.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_30_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\nsoftware.IPWorksSSNMP.System.dll FileAttribute" FileName="nsoftware.IPWorksSSNMP.System.dll" MinimumFileVersion="10.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_34_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\SCHook.dll FileAttribute" FileName="SCHook.dll" MinimumFileVersion="1.0.0.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_35_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\screenhooks32.dll FileAttribute" FileName="screenhooks.dll" MinimumFileVersion="2.7.10.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_38_1_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Windows\LTSvc\tvnserver.exe FileAttribute" FileName="tvnserver.exe" MinimumFileVersion="2.7.10.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4C_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\GoogleUpdate.exe FileAttribute" FileName="GoogleUpdate.exe" MinimumFileVersion="1.3.36.151" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4D_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\GoogleUpdateBroker.exe FileAttribute" FileName="goopdate.dll" MinimumFileVersion="1.3.36.151" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4E_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\GoogleUpdateSetup.exe FileAttribute" FileName="GoogleUpdateSetup.exe" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4F_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_am.dll FileAttribute" FileName="goopdateres_am.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_50_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ar.dll FileAttribute" FileName="goopdateres_ar.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_51_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_bg.dll FileAttribute" FileName="goopdateres_bg.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_52_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_bn.dll FileAttribute" FileName="goopdateres_bn.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_53_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ca.dll FileAttribute" FileName="goopdateres_ca.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_54_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_cs.dll FileAttribute" FileName="goopdateres_cs.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_55_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_da.dll FileAttribute" FileName="goopdateres_da.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_56_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_de.dll FileAttribute" FileName="goopdateres_de.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_57_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_el.dll FileAttribute" FileName="goopdateres_el.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_58_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_en-GB.dll FileAttribute" FileName="goopdateres_en-GB.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_59_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_en.dll FileAttribute" FileName="goopdateres_en.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5A_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_es-419.dll FileAttribute" FileName="goopdateres_es-419.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5B_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_es.dll FileAttribute" FileName="goopdateres_es.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5C_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_et.dll FileAttribute" FileName="goopdateres_et.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5D_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_fa.dll FileAttribute" FileName="goopdateres_fa.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5E_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_fi.dll FileAttribute" FileName="goopdateres_fi.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5F_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_fil.dll FileAttribute" FileName="goopdateres_fil.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_60_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_fr.dll FileAttribute" FileName="goopdateres_fr.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_61_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_gu.dll FileAttribute" FileName="goopdateres_gu.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_62_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_hi.dll FileAttribute" FileName="goopdateres_hi.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_63_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_hr.dll FileAttribute" FileName="goopdateres_hr.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_64_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_hu.dll FileAttribute" FileName="goopdateres_hu.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_65_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_id.dll FileAttribute" FileName="goopdateres_id.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_66_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_is.dll FileAttribute" FileName="goopdateres_is.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_67_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_it.dll FileAttribute" FileName="goopdateres_it.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_68_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_iw.dll FileAttribute" FileName="goopdateres_iw.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_69_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ja.dll FileAttribute" FileName="goopdateres_ja.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6A_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_kn.dll FileAttribute" FileName="goopdateres_kn.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6B_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ko.dll FileAttribute" FileName="goopdateres_ko.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6C_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_lt.dll FileAttribute" FileName="goopdateres_lt.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6D_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_lv.dll FileAttribute" FileName="goopdateres_lv.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6E_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ml.dll FileAttribute" FileName="goopdateres_ml.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6F_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_mr.dll FileAttribute" FileName="goopdateres_mr.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_70_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ms.dll FileAttribute" FileName="goopdateres_ms.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_71_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_nl.dll FileAttribute" FileName="goopdateres_nl.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_72_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_no.dll FileAttribute" FileName="goopdateres_no.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_73_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_pl.dll FileAttribute" FileName="goopdateres_pl.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_74_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_pt-BR.dll FileAttribute" FileName="goopdateres_pt-BR.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_75_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_pt-PT.dll FileAttribute" FileName="goopdateres_pt-PT.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_76_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ro.dll FileAttribute" FileName="goopdateres_ro.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_77_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ru.dll FileAttribute" FileName="goopdateres_ru.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_78_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_sk.dll FileAttribute" FileName="goopdateres_sk.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_79_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_sl.dll FileAttribute" FileName="goopdateres_sl.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7A_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_sr.dll FileAttribute" FileName="goopdateres_sr.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7B_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_sv.dll FileAttribute" FileName="goopdateres_sv.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7C_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_sw.dll FileAttribute" FileName="goopdateres_sw.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7D_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ta.dll FileAttribute" FileName="goopdateres_ta.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7E_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_te.dll FileAttribute" FileName="goopdateres_te.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7F_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_th.dll FileAttribute" FileName="goopdateres_th.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_80_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_tr.dll FileAttribute" FileName="goopdateres_tr.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_81_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_uk.dll FileAttribute" FileName="goopdateres_uk.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_82_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_ur.dll FileAttribute" FileName="goopdateres_ur.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_83_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_vi.dll FileAttribute" FileName="goopdateres_vi.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_84_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_zh-CN.dll FileAttribute" FileName="goopdateres_zh-CN.dll" MinimumFileVersion="1.3.36.152" />
+    <FileAttrib ID="ID_FILEATTRIB_F_85_2_1_0_0_0_0_0_0_0_0" FriendlyName="C:\Program Files (x86)\Google\Update\1.3.36.152\goopdateres_zh-TW.dll FileAttribute" FileName="goopdateres_zh-TW.dll" MinimumFileVersion="1.3.36.152" />
+    <Allow ID="ID_ALLOW_PATH_0_1_1_0_0_0" FriendlyName="Allow by path: %OSDRIVE%\Program Files\*" FilePath="%OSDRIVE%\Program Files\*" />
+    <Allow ID="ID_ALLOW_PATH_1_1_1_0_0_0" FriendlyName="Allow by path: %OSDRIVE%\Program Files (x86)\*" FilePath="%OSDRIVE%\Program Files (x86)\*" />
+    <Allow ID="ID_ALLOW_PATH_2_1_1_0_0_0" FriendlyName="Allow by path: %WINDIR%\*" FilePath="%WINDIR%\*" />
+    <Allow ID="ID_ALLOW_A_3_1_1_0_0_0" FriendlyName="Allow files based on file attributes: RAMSoft PI" ProductName="RAMSoft PI" />
+    <Allow ID="ID_ALLOW_A_1C_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\goto\resources\app.asar.unpacked\node_modules\@getgo\gtnt-core\src\addon.js Hash Sha1" Hash="A7AE69E11F7F858A45F54CD854CAE4BDED9114EB" />
+    <Allow ID="ID_ALLOW_A_1D_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\goto\resources\app.asar.unpacked\node_modules\@getgo\gtnt-core\src\addon.js Hash Sha256" Hash="B117C8B61478C1FE41ED5D54450D56C2F23D99B961D1F0220A527D9174F29955" />
+    <Allow ID="ID_ALLOW_A_1E_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\goto\resources\app.asar.unpacked\node_modules\@getgo\gtnt-core\src\addon.js Hash Authenticode SIP Sha256" Hash="0000000000000000000000000000000000000000000000000000000000000000" />
+    <Allow ID="ID_ALLOW_A_1F_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\goto\resources\app.asar.unpacked\node_modules\@getgo\gtnt-core\src\index.js Hash Sha1" Hash="DA01D3A5BC576CD18A3F3721ADC7115CFD6471FA" />
+    <Allow ID="ID_ALLOW_A_20_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\goto\resources\app.asar.unpacked\node_modules\@getgo\gtnt-core\src\index.js Hash Sha256" Hash="CFF30493D335B58472BDB1DC6368C46EFE7FCD227348EC081F2FD8431E4F9BE6" />
+    <Allow ID="ID_ALLOW_A_21_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\goto\resources\app.asar.unpacked\node_modules\@getgo\gtnt-core\scripts\install.js Hash Sha1" Hash="2A499A73B628C515D6C21664EBF8F01E3B88497C" />
+    <Allow ID="ID_ALLOW_A_22_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\goto\resources\app.asar.unpacked\node_modules\@getgo\gtnt-core\scripts\install.js Hash Sha256" Hash="63B409511EE72FC09DC6E02C3216A98D233F5E82C56DEB71C100B7E657467A0D" />
+    <Allow ID="ID_ALLOW_A_23_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\ffmpeg.dll Hash Sha1" Hash="3A49A15609298675D579C16628AA0B114D94EA0C" />
+    <Allow ID="ID_ALLOW_A_24_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\ffmpeg.dll Hash Sha256" Hash="05CAB27182BCC19584ADA4CB4668591C9D5C642D212AA8566677A9E141435C97" />
+    <Allow ID="ID_ALLOW_A_25_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\ffmpeg.dll Hash Page Sha1" Hash="8E807A2F866692B05836AF43052DD23BD8125DE4" />
+    <Allow ID="ID_ALLOW_A_26_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\ffmpeg.dll Hash Page Sha256" Hash="B6C58F002AC388EC1045950D42CFF8D38184CFC67EE7B74E5266F5FCBD864E6A" />
+    <Allow ID="ID_ALLOW_A_27_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\vulkan-1.dll Hash Sha1" Hash="3D5190441CF2809172BB11C71DC1D322C6AFCDED" />
+    <Allow ID="ID_ALLOW_A_28_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\vulkan-1.dll Hash Sha256" Hash="7030A34A3F8737CE39CE5EC6604A207F266945B7D7109CAB70071E6CF686DEC0" />
+    <Allow ID="ID_ALLOW_A_29_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\vulkan-1.dll Hash Page Sha1" Hash="DA4774610B703F69B2E7397CF05D924B8B18D30F" />
+    <Allow ID="ID_ALLOW_A_2A_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\vulkan-1.dll Hash Page Sha256" Hash="21D629B1320B219C186695D411F30704851D5CC2034E25AD9CBE86CF2EB17A66" />
+    <Allow ID="ID_ALLOW_A_19_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\libEGL.dll FileRule" FileName="libEGL.dll" MinimumFileVersion="2.1.19728.0" />
+    <Allow ID="ID_ALLOW_A_1A_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\libGLESv2.dll FileRule" FileName="libGLESv2.dll" MinimumFileVersion="2.1.19728.0" />
+    <Allow ID="ID_ALLOW_A_1B_0_1_0_0" FriendlyName="C:\Users\paadmin\AppData\Local\Programs\Canva\vk_swiftshader.dll FileRule" FileName="vk_swiftshader.dll" MinimumFileVersion="5.0.0.1" />
+    <Allow ID="ID_ALLOW_A_1_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\popups\shared.js Hash Sha1" Hash="F1C54B476D80E8367A4F9671834A2F4C6116D55C" />
+    <Allow ID="ID_ALLOW_A_2_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\popups\shared.js Hash Sha256" Hash="AC4C748C1566D88498AD4A815996CBB8054D71D929CA88C57650962167203C07" />
+    <Allow ID="ID_ALLOW_A_4_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\background.js Hash Sha1" Hash="F70D15AE8B17D04ED69C8C097B97F9428BEB33AE" />
+    <Allow ID="ID_ALLOW_A_5_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\background.js Hash Sha256" Hash="2E8E53648F9DA1978A2C5044BC60F0D04B471FB49484E39A60BAB56CDB1A2D8D" />
+    <Allow ID="ID_ALLOW_A_6_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\importFile.worker.worker.js Hash Sha1" Hash="C7A81E9CC7936A63A528F3923E4B38C8C39E0DFC" />
+    <Allow ID="ID_ALLOW_A_7_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\importFile.worker.worker.js Hash Sha256" Hash="2412B33F2C49EE852431E48EC4333969D3129793772E4471FCF54A99D91D9B2E" />
+    <Allow ID="ID_ALLOW_A_8_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\installHook.js Hash Sha1" Hash="B386BC80B613831FA26896B13FC11A2756E7ED89" />
+    <Allow ID="ID_ALLOW_A_9_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\installHook.js Hash Sha256" Hash="2FE54996DEC607F97C4140FB79BFEC3D62B31FFE5A399F947DC1139F3425E81A" />
+    <Allow ID="ID_ALLOW_A_A_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\main.js Hash Sha1" Hash="4356887FA19C0AF24697D7FE63EC84DEAC5A8AC3" />
+    <Allow ID="ID_ALLOW_A_B_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\main.js Hash Sha256" Hash="773560F3572591AC1E589A21237A7905AE8E022480A3E618F8CA4706E12F7E2A" />
+    <Allow ID="ID_ALLOW_A_C_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\panel.js Hash Sha1" Hash="DBAA7C141E605F6A702E3308C427CBD23EF4CA89" />
+    <Allow ID="ID_ALLOW_A_D_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\panel.js Hash Sha256" Hash="17F28105D93439CDE9E6CAB6CF4408D9051D61641965992FA2C77F40E6B17F86" />
+    <Allow ID="ID_ALLOW_A_E_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\parseHookNames.chunk.js Hash Sha1" Hash="B67B1985089226B9ACA8A5EC0219702F75A7E5F4" />
+    <Allow ID="ID_ALLOW_A_F_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\parseHookNames.chunk.js Hash Sha256" Hash="F629E6FEF175D1DC68E1160187D895ABF7B765BF538BB19EE02C438D460DA50C" />
+    <Allow ID="ID_ALLOW_A_10_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\parseSourceAndMetadata.worker.worker.js Hash Sha1" Hash="8A0695D1E4356D0C93D2196B1E2CBB2C49EDA091" />
+    <Allow ID="ID_ALLOW_A_11_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\parseSourceAndMetadata.worker.worker.js Hash Sha256" Hash="EFDB2C2E2592F47D473868878CD3DFF745CF2CDC0751FF67594CA5DEAED4E968" />
+    <Allow ID="ID_ALLOW_A_12_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\prepareInjection.js Hash Sha1" Hash="6D7B342697D888AF2C651E6FA47A3F7834A51AEC" />
+    <Allow ID="ID_ALLOW_A_13_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\prepareInjection.js Hash Sha256" Hash="992269111209E0C3A2AEFA5E6746EF7C12E704D0E57D2811622891A7F400F25F" />
+    <Allow ID="ID_ALLOW_A_14_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\proxy.js Hash Sha1" Hash="C25534224DA24BCC3ED801CB01D97168A477D056" />
+    <Allow ID="ID_ALLOW_A_15_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\proxy.js Hash Sha256" Hash="559F97E19497E198C8955471D386BB8F8EB265DE7923AB711470A8BB94D1FC86" />
+    <Allow ID="ID_ALLOW_A_16_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\react_devtools_backend.js Hash Sha1" Hash="B7D7350659EC9C4C54EC82B52689BA40BA41ADC4" />
+    <Allow ID="ID_ALLOW_A_17_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\react_devtools_backend.js Hash Sha256" Hash="8761829D5F36ABF5A02DE6CA3C2AEED6FF56C39D274D410B49D85B204A79207E" />
+    <Allow ID="ID_ALLOW_A_18_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\vendors~parseHookNames.chunk.js Hash Sha1" Hash="8BEDAD85898EDD45DA9AAC0C4DE6E23C737FAF0F" />
+    <Allow ID="ID_ALLOW_A_19_0_1_0" FriendlyName="C:\Users\paadmin\AppData\Local\slack\app-4.32.122\resources\app.asar.unpacked\dist\resources\extensions\react-devtools\build\vendors~parseHookNames.chunk.js Hash Sha256" Hash="AC49E2238C8A955708B6DAF3B35DE6D5E369A7190F87D5E3B89416DC38822A87" />
+  </FileRules>
+  <Signers>
+    <Signer Name="Certum Code Signing CA SHA2" ID="ID_SIGNER_S_4_2_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="F7B6EEB3A567223000A61F68C53B458193557C17E5D512D2825BCB13E5FC9BE5" />
+      <CertPublisher Value="Open Source Developer, Robin Krom" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftProductRoot1997" ID="ID_SIGNER_MICROSOFT_PRODUCT_1997_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="04" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftProductRoot2001" ID="ID_SIGNER_MICROSOFT_PRODUCT_2001_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="05" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftProductRoot2010" ID="ID_SIGNER_MICROSOFT_PRODUCT_2010_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="06" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftStandardRoot2011" ID="ID_SIGNER_MICROSOFT_STANDARD_2011_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="07" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftCodeVerificationRoot2006" ID="ID_SIGNER_MICROSOFT_CODEVERIFICATION_2006_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="08" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftDMDRoot2005" ID="ID_SIGNER_DRM_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="0C" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftFlightRoot2014" ID="ID_SIGNER_MICROSOFT_FLIGHT_2014_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="0E" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftTestRoot2010" ID="ID_SIGNER_TEST2010_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="0A" />
+    </Signer>
+    <Signer Name="VeriSign Class 3 Code Signing 2010 CA" ID="ID_SIGNER_S_6_4_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="4843A82ED3B1F2BFBEE9671960E1940C942F688D" />
+      <CertPublisher Value="LabTech Software" />
+    </Signer>
+    <Signer Name="Microsoft Windows Production PCA 2011" ID="ID_SIGNER_S_235_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="4E80BE107C860DE896384B3EFF50504DC2D76AC7151DF3102A4450637A032146" />
+      <CertPublisher Value="Microsoft Windows" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA" ID="ID_SIGNER_S_1694_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="27543A3F7612DE2261C7228321722402F63A07DE" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name="Microsoft MarketPlace PCA 2011" ID="ID_SIGNER_S_1E1E_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="FC9EDE3DCCA09186B2D3BF9B738A2050CB1A554DA2DCADB55F3F72EE17721378" />
+      <CertPublisher Value="58DECE39-D5D0-4293-AAA0-9AF8484F12E2" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA 2010" ID="ID_SIGNER_S_2FE9_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name="Microsoft Windows Phone Production PCA 2012" ID="ID_SIGNER_S_4DB5_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="A26156E95BF1EE57E8A410470C08525CDA7862DECBAA2629CACD57DAA5D6D6AD" />
+      <CertPublisher Value="Windows Phone" />
+    </Signer>
+    <Signer Name="Windows OEM Test Cert 2017 (TEST ONLY)" ID="ID_SIGNER_S_5235_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="A3E4289BF9B8C315709658E98AFC95FA1F38835899DD3BA782B82C1E9D3983C6" />
+      <CertPublisher Value="Windows OEM Test Cert 2017 (TEST ONLY)" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA" ID="ID_SIGNER_S_5995_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="122F29FFE889713C1568EF7A0F663373C98570E8" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name=".NET Foundation Projects Code Signing CA" ID="ID_SIGNER_S_5F2E_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="B6D27A37A95C0A174C66496B3225B11A6250846BBC31FCA10D69D61F92DF5084" />
+      <CertPublisher Value="Windows Community Toolkit (.NET Foundation)" />
+    </Signer>
+    <Signer Name="Microsoft MarketPlace PCA 2011" ID="ID_SIGNER_S_92CA_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="FC9EDE3DCCA09186B2D3BF9B738A2050CB1A554DA2DCADB55F3F72EE17721378" />
+      <CertPublisher Value="58D26209-1D57-482C-B403-B655571B5C7B" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2012" ID="ID_SIGNER_S_9819_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA 2011" ID="ID_SIGNER_S_1639B_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Skype Software Sarl" />
+    </Signer>
+    <Signer Name="Microsoft Windows Production PCA 2011" ID="ID_SIGNER_S_16628_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="4E80BE107C860DE896384B3EFF50504DC2D76AC7151DF3102A4450637A032146" />
+      <CertPublisher Value="Microsoft Windows Publisher" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA 2010" ID="ID_SIGNER_S_1FA33_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
+      <CertPublisher Value="Microsoft Windows Early Launch Anti-malware Publisher" />
+    </Signer>
+    <Signer Name="Intel External Basic Policy CA" ID="ID_SIGNER_S_3D8C4_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="53B052BA209C525233293274854B264BC0F68B73" />
+      <CertPublisher Value="Intel Corporation - Client Components Group" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2013" ID="ID_SIGNER_S_4E180_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="C55EE44C6DE86FA9AC3FC90F84EF0D4A6CAD5AAC6A112047C88B997E7547AED1" />
+      <CertPublisher Value="Microsoft Windows Software Compatibility Publisher" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2014" ID="ID_SIGNER_S_5F068_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+    </Signer>
+    <Signer Name="Windows OEM Test Cert 2017 (TEST ONLY)" ID="ID_SIGNER_S_5F084_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="C271E94B42B1ABD34CAE4CDE00562D454DC4F946095E5206C45DB86CAC387F40" />
+      <CertPublisher Value="Windows OEM Test Cert 2017 (TEST ONLY)" />
+    </Signer>
+    <Signer Name="COMODO RSA Extended Validation Code Signing CA" ID="ID_SIGNER_S_5F8DE_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="FCD8DD15125F14B84FEC55838806355EC3787407188BAC83C2C0D6C841ADF9AC76EE83ECCC5C9463F1F88FC5295A31EE" />
+      <CertPublisher Value="Intel Corporation" />
+    </Signer>
+    <Signer Name="Intel External Issuing CA 7B" ID="ID_SIGNER_S_5FF82_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="5FA042C979FABA67DE861093B4ACA808AE4BE0FCEDF123CB8AFE126856C0B6AC3451393048211DB8993914C5FF410BD8" />
+      <CertPublisher Value="Intel(R) Embedded Subsystems and IP Blocks Group" />
+    </Signer>
+    <Signer Name="WDKTestCert build,132303256403278908" ID="ID_SIGNER_S_6028D_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="ED3FBDF550C3BCD2744EA3FD7B8A17CB6C765530" />
+      <CertPublisher Value="WDKTestCert build,132303256403278908" />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_F_4_0_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="TeamViewer Germany GmbH" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F_0_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2012" ID="ID_SIGNER_F_4F_0_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F_0_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="VeriSign Class 3 Code Signing 2010 CA" ID="ID_SIGNER_F_52_0_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="4843A82ED3B1F2BFBEE9671960E1940C942F688D" />
+      <CertPublisher Value="TeamViewer GmbH" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11_0_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="GlobalSign CodeSigning CA - G3" ID="ID_SIGNER_S_1_0_1_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="F478F0E790D5C8EC6056A3AB2567404A991D2837" />
+      <CertPublisher Value="Secure By Design Inc." />
+    </Signer>
+    <Signer Name="GlobalSign CodeSigning CA - SHA256 - G3" ID="ID_SIGNER_S_2_0_1_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="06936BAC8D2F85D9CE6F7348EA421A1A949219182845192667B0E671FE0E4285" />
+      <CertPublisher Value="Secure By Design Inc." />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftProductRoot1997" ID="ID_SIGNER_MICROSOFT_PRODUCT_1997_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="04" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftProductRoot2001" ID="ID_SIGNER_MICROSOFT_PRODUCT_2001_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="05" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftProductRoot2010" ID="ID_SIGNER_MICROSOFT_PRODUCT_2010_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="06" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftStandardRoot2011" ID="ID_SIGNER_MICROSOFT_STANDARD_2011_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="07" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftCodeVerificationRoot2006" ID="ID_SIGNER_MICROSOFT_CODEVERIFICATION_2006_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="08" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftDMDRoot2005" ID="ID_SIGNER_DRM_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="0C" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftFlightRoot2014" ID="ID_SIGNER_MICROSOFT_FLIGHT_2014_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="0E" />
+    </Signer>
+    <Signer Name="Microsoft MarketPlace PCA 2011" ID="ID_SIGNER_STORE_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="FC9EDE3DCCA09186B2D3BF9B738A2050CB1A554DA2DCADB55F3F72EE17721378" />
+      <CertEKU ID="ID_EKU_STORE" />
+    </Signer>
+    <Signer Name="MincryptKnownRootMicrosoftTestRoot2010" ID="ID_SIGNER_TEST2010_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="Wellknown" Value="0A" />
+    </Signer>
+    <Signer Name="Allow CN = Connectwise, LLC issued by DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_A_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="6C386E9DC970BAA358688B4D44C2FA03AA90350C8A84D8A1A925FB30D746ACB3" />
+      <CertPublisher Value="Connectwise, LLC" />
+    </Signer>
+    <Signer Name="Allow CN = Microsoft Corporation issued by Microsoft Code Signing PCA 2011" ID="ID_SIGNER_A_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="57C7D92D24A49787AA1EB5D923C7717519B0D8D30852834E445471350A183CD4" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name="Allow CN = Logitech Inc issued by DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_A_2_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="3827B9D4EC8102C24CD980772BA3E69E696DE5A8DFFC5BACB6B36F9051C9F1FF" />
+      <CertPublisher Value="Logitech Inc" />
+    </Signer>
+    <Signer Name="Allow CN = Windows Community Toolkit (.NET Foundation) issued by .NET Foundation Projects Code Signing CA" ID="ID_SIGNER_A_6_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="B9B5944ABC3C21B957C6B027EA6B4D1A17785571CC4BA491157872CF8483A4CC" />
+      <CertPublisher Value="Windows Community Toolkit (.NET Foundation)" />
+    </Signer>
+    <Signer Name="Allow CN = Open Source Developer, Robin Krom issued by Certum Code Signing CA SHA2" ID="ID_SIGNER_A_7_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="7D5B46026DD28E7D75E3A50BCD3BB8CCC1EFACDAA5B89B939AD6924CE8D9230A" />
+      <CertPublisher Value="Open Source Developer, Robin Krom" />
+    </Signer>
+    <Signer Name="Allow CN = Microsoft 3rd Party Application Component issued by Microsoft Code Signing PCA 2011" ID="ID_SIGNER_A_9_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="FC5821DCB3ED3A637E91B58ED0910C79F691767E5866E4B6CFC772D63DA73458" />
+      <CertPublisher Value="Microsoft 3rd Party Application Component" />
+    </Signer>
+    <Signer Name="Allow CN = .NET issued by Microsoft Code Signing PCA 2011" ID="ID_SIGNER_A_10_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="0264A2DE137D73967FDA6377E62CD4E04C41BC2781C5563632929C827C1D1215B99B50CBC855335C343014ABC9A55C82" />
+      <CertPublisher Value=".NET" />
+    </Signer>
+    <Signer Name="Issuing CA = Microsoft Code Signing PCA 2011" ID="ID_SIGNER_A_11_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="0264A2DE137D73967FDA6377E62CD4E04C41BC2781C5563632929C827C1D1215B99B50CBC855335C343014ABC9A55C82" />
+    </Signer>
+    <Signer Name="Issuing CA = Certum Code Signing CA SHA2" ID="ID_SIGNER_A_12_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="7D5B46026DD28E7D75E3A50BCD3BB8CCC1EFACDAA5B89B939AD6924CE8D9230A" />
+    </Signer>
+    <Signer Name="Microsoft MarketPlace PCA 2011" ID="ID_SIGNER_STORE_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="FC9EDE3DCCA09186B2D3BF9B738A2050CB1A554DA2DCADB55F3F72EE17721378" />
+      <CertEKU ID="ID_EKU_STORE" />
+    </Signer>
+    <Signer Name=".NET Foundation Projects Code Signing CA" ID="ID_SIGNER_S_1E_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="B6D27A37A95C0A174C66496B3225B11A6250846BBC31FCA10D69D61F92DF5084" />
+      <CertPublisher Value="Windows Community Toolkit (.NET Foundation)" />
+    </Signer>
+    <Signer Name=".NET Foundation Projects Code Signing CA" ID="ID_SIGNER_S_44_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="B6D27A37A95C0A174C66496B3225B11A6250846BBC31FCA10D69D61F92DF5084" />
+      <CertPublisher Value="WiX Toolset (.NET Foundation)" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA" ID="ID_SIGNER_S_48_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="27543A3F7612DE2261C7228321722402F63A07DE" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name="AME CS CA 01" ID="ID_SIGNER_S_139_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="B3C1CB053296C713C7D9639BC51C4399A9A6A04B939BFA3967B08AE2535FF1EB" />
+      <CertPublisher Value="Microsoft Azure Code Sign" />
+    </Signer>
+    <Signer Name=".NET Foundation Projects Code Signing CA" ID="ID_SIGNER_S_166_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="B6D27A37A95C0A174C66496B3225B11A6250846BBC31FCA10D69D61F92DF5084" />
+      <CertPublisher Value="Json.NET (.NET Foundation)" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA 2010" ID="ID_SIGNER_S_168_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name=".NET Foundation Projects Code Signing CA" ID="ID_SIGNER_S_185_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="B6D27A37A95C0A174C66496B3225B11A6250846BBC31FCA10D69D61F92DF5084" />
+      <CertPublisher Value="Pinvoke (.NET Foundation)" />
+    </Signer>
+    <Signer Name="Microsoft Windows Production PCA 2011" ID="ID_SIGNER_S_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="4E80BE107C860DE896384B3EFF50504DC2D76AC7151DF3102A4450637A032146" />
+      <CertPublisher Value="Microsoft Windows" />
+    </Signer>
+    <Signer Name=".NET Foundation Projects Code Signing CA2" ID="ID_SIGNER_S_564_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="A1BEDD53F9260FD3E0CB84900BF05837563BE8AEE86F613562196AE77804F456" />
+      <CertPublisher Value="Json.NET (.NET Foundation)" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA" ID="ID_SIGNER_S_10F8_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="5095BF071B0D9976E40AE08412F4E1D241AFB58C" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2012" ID="ID_SIGNER_S_1121_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA 2010" ID="ID_SIGNER_S_200E_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
+      <CertPublisher Value=".NET DAC" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2013" ID="ID_SIGNER_S_245C_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="C55EE44C6DE86FA9AC3FC90F84EF0D4A6CAD5AAC6A112047C88B997E7547AED1" />
+      <CertPublisher Value="Microsoft Windows Software Compatibility Publisher" />
+    </Signer>
+    <Signer Name="EdgeBuild" ID="ID_SIGNER_S_4A3C_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="D15E8FF6D196E682FDF13B1165A5762035DE6D617C78A83BFC918200AC421DA3" />
+      <CertPublisher Value="EdgeBuild" />
+    </Signer>
+    <Signer Name="Microsoft Windows Phone Production PCA 2012" ID="ID_SIGNER_S_4DB8_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="A26156E95BF1EE57E8A410470C08525CDA7862DECBAA2629CACD57DAA5D6D6AD" />
+      <CertPublisher Value="Windows Phone" />
+    </Signer>
+    <Signer Name="Windows OEM Test Cert 2017 (TEST ONLY)" ID="ID_SIGNER_S_5183_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="A3E4289BF9B8C315709658E98AFC95FA1F38835899DD3BA782B82C1E9D3983C6" />
+      <CertPublisher Value="Windows OEM Test Cert 2017 (TEST ONLY)" />
+    </Signer>
+    <Signer Name="Microsoft Windows Production PCA 2011" ID="ID_SIGNER_S_95EC_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="4E80BE107C860DE896384B3EFF50504DC2D76AC7151DF3102A4450637A032146" />
+      <CertPublisher Value="Microsoft Windows Publisher" />
+    </Signer>
+    <Signer Name="Microsoft Windows Hardware Compatibility PCA" ID="ID_SIGNER_S_D4A4_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="6B3242A9A639B0DA4D5882C7EEB402BE6615AD0C" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA 2011" ID="ID_SIGNER_S_D647_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Microsoft Office" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA 2010" ID="ID_SIGNER_S_F090_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
+      <CertPublisher Value="Microsoft Dynamic Code Publisher" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2012" ID="ID_SIGNER_S_14531_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46" />
+      <CertPublisher Value="Microsoft Windows 3rd party Component" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2013" ID="ID_SIGNER_S_1DBD8_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="C55EE44C6DE86FA9AC3FC90F84EF0D4A6CAD5AAC6A112047C88B997E7547AED1" />
+      <CertPublisher Value="Microsoft Windows Third Party Application Component" />
+    </Signer>
+    <Signer Name="Microsoft Windows Production PCA 2011" ID="ID_SIGNER_S_2DBFE_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="4E80BE107C860DE896384B3EFF50504DC2D76AC7151DF3102A4450637A032146" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name="Intel External Basic Policy CA" ID="ID_SIGNER_S_3D8CB_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="53B052BA209C525233293274854B264BC0F68B73" />
+      <CertPublisher Value="Intel Corporation - Client Components Group" />
+    </Signer>
+    <Signer Name="iKGF_AZSKGFDCS" ID="ID_SIGNER_S_3F801_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="845E86C9F99273BFE19ABC3FFDC8D0CB71D7932C" />
+      <CertPublisher Value="IntelVPGSigning2021" />
+    </Signer>
+    <Signer Name="Intel External Issuing CA 7B" ID="ID_SIGNER_S_41E41_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="5FA042C979FABA67DE861093B4ACA808AE4BE0FCEDF123CB8AFE126856C0B6AC3451393048211DB8993914C5FF410BD8" />
+      <CertPublisher Value="Intel(R) pGFX 2020" />
+    </Signer>
+    <Signer Name="Microsoft Windows PCA 2010" ID="ID_SIGNER_S_44251_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="90C9669670E75989159E6EEF69625EB6AD17CBA6209ED56F5665D55450A05212" />
+      <CertPublisher Value="Microsoft Windows" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2014" ID="ID_SIGNER_S_4DDE3_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+    </Signer>
+    <Signer Name="Windows OEM Test Cert 2017 (TEST ONLY)" ID="ID_SIGNER_S_5F088_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="C271E94B42B1ABD34CAE4CDE00562D454DC4F946095E5206C45DB86CAC387F40" />
+      <CertPublisher Value="Windows OEM Test Cert 2017 (TEST ONLY)" />
+    </Signer>
+    <Signer Name="COMODO RSA Extended Validation Code Signing CA" ID="ID_SIGNER_S_5F8E2_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="FCD8DD15125F14B84FEC55838806355EC3787407188BAC83C2C0D6C841ADF9AC76EE83ECCC5C9463F1F88FC5295A31EE" />
+      <CertPublisher Value="Intel Corporation" />
+    </Signer>
+    <Signer Name="Sectigo RSA Code Signing CA" ID="ID_SIGNER_S_5FF7C_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="20ADC5B59CB532E215F01BA09A9C745898C206555613512FEA7C295CCFD17CED4FE2C5BC3274CA8A270FC68799B8343C" />
+      <CertPublisher Value="Intel Corporation" />
+    </Signer>
+    <Signer Name="Intel External Issuing CA 7B" ID="ID_SIGNER_S_5FF87_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="5FA042C979FABA67DE861093B4ACA808AE4BE0FCEDF123CB8AFE126856C0B6AC3451393048211DB8993914C5FF410BD8" />
+      <CertPublisher Value="Intel(R) Embedded Subsystems and IP Blocks Group" />
+    </Signer>
+    <Signer Name="WDKTestCert build,132303256403278908" ID="ID_SIGNER_S_60291_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="ED3FBDF550C3BCD2744EA3FD7B8A17CB6C765530" />
+      <CertPublisher Value="WDKTestCert build,132303256403278908" />
+    </Signer>
+    <Signer Name="Microsoft Update Signing CA 2.3" ID="ID_SIGNER_S_63027_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="C896AA55716313B0E613A631D4865BBFD7259552D9083E5A43DCEEEC39C4BA73" />
+      <CertPublisher Value="Microsoft Update" />
+    </Signer>
+    <Signer Name="UTN-USERFirst-Object" ID="ID_SIGNER_S_671ED_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="C45627B5584BF62327DF60D6185744A2D2F2BCBF" />
+      <CertPublisher Value="N SOFTWARE INC." />
+    </Signer>
+    <Signer Name="GlobalSign Primary Object Publishing CA" ID="ID_SIGNER_S_671F4_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="041750993D7C9E063F02DFE74699598640911AAB" />
+      <CertPublisher Value="uvnc bvba" />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_S_5C_0_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="TeamViewer Germany GmbH" />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_F_1_0_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="TeamViewer Germany GmbH" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_3_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_9_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_A_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_B_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_C_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_D_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_14_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_15_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_16_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_17_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_18_0_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="Microsoft Windows Third Party Component CA 2012" ID="ID_SIGNER_F_51_0_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F_0_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_14_0_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="VeriSign Class 3 Code Signing 2010 CA" ID="ID_SIGNER_F_53_0_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="4843A82ED3B1F2BFBEE9671960E1940C942F688D" />
+      <CertPublisher Value="TeamViewer GmbH" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11_0_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA 2011" ID="ID_SIGNER_F_54_0_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_13_0_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="EdgeBuild" ID="ID_SIGNER_F_55_0_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="D15E8FF6D196E682FDF13B1165A5762035DE6D617C78A83BFC918200AC421DA3" />
+      <CertPublisher Value="EdgeBuild" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_13_0_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="Thawte Code Signing CA - G2" ID="ID_SIGNER_S_79_1_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="95795D2AA2A554A423BC8C6E5B0A016D14887D35" />
+      <CertPublisher Value="GlavSoft LLC." />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_F_5F_1_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="Connectwise, LLC" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_20_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_23_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_24_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_28_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_29_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2A_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_31_1_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="GlobalSign Extended Validation CodeSigning CA - SHA256 - G3" ID="ID_SIGNER_F_60_1_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="15E7050789DF807F3E3174294A01B637A1239F603E42F4B5DB9398EFA9DA9996" />
+      <CertPublisher Value="ConnectWise, Inc." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_3D_1_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="VeriSign Class 3 Code Signing 2010 CA" ID="ID_SIGNER_F_69_1_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="4843A82ED3B1F2BFBEE9671960E1940C942F688D" />
+      <CertPublisher Value="LabTech Software" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_27_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_39_1_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="UTN-USERFirst-Object" ID="ID_SIGNER_F_6D_1_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="C45627B5584BF62327DF60D6185744A2D2F2BCBF" />
+      <CertPublisher Value="N SOFTWARE INC." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2B_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2C_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2D_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2E_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2F_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_30_1_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="GlobalSign Primary Object Publishing CA" ID="ID_SIGNER_F_74_1_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="041750993D7C9E063F02DFE74699598640911AAB" />
+      <CertPublisher Value="uvnc bvba" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_34_1_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="Thawte Code Signing CA - G2" ID="ID_SIGNER_F_75_1_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="95795D2AA2A554A423BC8C6E5B0A016D14887D35" />
+      <CertPublisher Value="GlavSoft LLC." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_35_1_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_38_1_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_S_103_2_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="Google LLC" />
+    </Signer>
+    <Signer Name="DigiCert Assured ID Code Signing CA-1" ID="ID_SIGNER_S_104_2_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="47F4B9898631773231B32844EC0D49990AC4EB1E" />
+      <CertPublisher Value="Google LLC" />
+    </Signer>
+    <Signer Name="DigiCert Assured ID Code Signing CA-1" ID="ID_SIGNER_F_7B_2_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="47F4B9898631773231B32844EC0D49990AC4EB1E" />
+      <CertPublisher Value="Google LLC" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4C_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4D_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4E_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4F_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_50_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_51_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_52_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_53_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_54_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_55_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_56_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_57_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_58_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_59_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5A_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5B_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5C_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5D_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5E_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5F_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_60_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_61_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_62_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_63_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_64_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_65_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_66_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_67_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_68_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_69_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6A_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6B_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6C_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6D_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6E_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6F_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_70_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_71_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_72_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_73_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_74_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_75_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_76_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_77_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_78_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_79_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7A_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7B_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7C_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7D_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7E_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7F_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_80_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_81_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_82_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_83_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_84_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_85_2_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_F_7C_2_1_0_0_0_0_0_0_0_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="Google LLC" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4C_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4D_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4E_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4F_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_50_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_51_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_52_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_53_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_54_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_55_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_56_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_57_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_58_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_59_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5A_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5B_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5C_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5D_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5E_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5F_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_60_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_61_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_62_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_63_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_64_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_65_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_66_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_67_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_68_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_69_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6A_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6B_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6C_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6D_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6E_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6F_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_70_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_71_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_72_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_73_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_74_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_75_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_76_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_77_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_78_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_79_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7A_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7B_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7C_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7D_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7E_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7F_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_80_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_81_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_82_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_83_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_84_2_1_0_0_0_0_0_0_0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_85_2_1_0_0_0_0_0_0_0_0" />
+    </Signer>
+    <Signer Name="Go Daddy Secure Certificate Authority - G2" ID="ID_SIGNER_S_1_0_1_0_0_0_0">
+      <CertRoot Type="TBS" Value="F9FF37F02E632CB7387025C07E57908A3D371B7C95D8CDD0390DE231ED943A12" />
+      <CertPublisher Value="PaperCut Software International Pty. Ltd." />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA 2011" ID="ID_SIGNER_S_3_0_1_0_0_0_0">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name="Microsoft Code Signing PCA" ID="ID_SIGNER_S_8_0_1_0_0_0_0">
+      <CertRoot Type="TBS" Value="7251ADC0F732CF409EE462E335BB99544F2DD40F" />
+      <CertPublisher Value="Microsoft Corporation" />
+    </Signer>
+    <Signer Name="Symantec Class 3 SHA256 Code Signing CA" ID="ID_SIGNER_S_B7_0_1_0_0_0_0">
+      <CertRoot Type="TBS" Value="A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1" />
+      <CertPublisher Value="Oracle America, Inc." />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_S_2_0_1_0_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="LogMeIn, Inc." />
+    </Signer>
+    <Signer Name="Entrust Code Signing Root Certification Authority - CSBR1" ID="ID_SIGNER_S_18_0_1_0_0">
+      <CertRoot Type="TBS" Value="F89F7EA86830083D285A316E68F23FE53B4D3031237987231AE889F6792E6D04" />
+      <CertPublisher Value="The Qt Company Oy" />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_S_1D_0_1_0_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="Cisco Systems, Inc." />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_S_7A_0_1_0_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="Cisco WebEx LLC" />
+    </Signer>
+    <Signer Name="Sectigo Public Code Signing Root R46" ID="ID_SIGNER_S_192_0_1_0_0">
+      <CertRoot Type="TBS" Value="A229D2722BC6091D73B1D979B81088C977CB028A6F7CBF264BB81D5CC8F099F87D7C296E48BF09D7EBE275F5498661A4" />
+      <CertPublisher Value="Canva" />
+    </Signer>
+    <Signer Name="DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1" ID="ID_SIGNER_S_1_0_1_0">
+      <CertRoot Type="TBS" Value="65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64" />
+      <CertPublisher Value="Slack Technologies, Inc." />
+    </Signer>
+  </Signers>
+  <SigningScenarios>
+    <SigningScenario ID="ID_SIGNINGSCENARIO_DRIVERS_1" FriendlyName="Auto generated policy on 06-09-2023" Value="131">
+      <ProductSigners>
+        <AllowedSigners>
+          <AllowedSigner SignerId="ID_SIGNER_S_4_2_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_PRODUCT_1997_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_PRODUCT_2001_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_PRODUCT_2010_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_STANDARD_2011_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_CODEVERIFICATION_2006_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_DRM_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_FLIGHT_2014_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_TEST2010_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_6_4_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_235_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1694_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1E1E_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_2FE9_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_4DB5_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5235_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5995_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5F2E_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_92CA_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_9819_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1639B_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_16628_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1FA33_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_3D8C4_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_4E180_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5F068_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5F084_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5F8DE_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5FF82_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_6028D_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_4_0_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_4F_0_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_52_0_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1_0_1_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_2_0_1_0_0_0_0_0_0" />
+        </AllowedSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_0_0_1_0_0_0_0_0" />
+        </FileRulesRef>
+      </ProductSigners>
+    </SigningScenario>
+    <SigningScenario ID="ID_SIGNINGSCENARIO_WINDOWS" FriendlyName="Auto generated policy on 06-09-2023" Value="12">
+      <ProductSigners>
+        <AllowedSigners>
+          <AllowedSigner SignerId="ID_SIGNER_S_4_2_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_PRODUCT_1997_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_PRODUCT_2001_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_PRODUCT_2010_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_STANDARD_2011_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_CODEVERIFICATION_2006_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_DRM_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_MICROSOFT_FLIGHT_2014_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_STORE_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_TEST2010_UMCI_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_A_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_A_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_A_2_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_6_4_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_A_6_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_A_7_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_A_9_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_A_10_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_A_11_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_A_12_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_STORE_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1E_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_44_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_48_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_139_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_166_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_168_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_185_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_564_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_10F8_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1121_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_200E_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_245C_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_4A3C_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_4DB8_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5183_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_95EC_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_D4A4_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_D647_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_F090_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_14531_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1DBD8_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_2DBFE_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_3D8CB_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_3F801_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_41E41_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_44251_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_4DDE3_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5F088_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5F8E2_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5FF7C_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5FF87_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_60291_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_63027_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_671ED_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_671F4_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_5C_0_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_1_0_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_51_0_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_53_0_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_54_0_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_55_0_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_79_1_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_5F_1_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_60_1_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_69_1_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_6D_1_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_74_1_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_75_1_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_103_2_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_104_2_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_7B_2_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_7C_2_1_0_0_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1_0_1_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_2_0_1_0_0_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1_0_1_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_3_0_1_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_8_0_1_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_B7_0_1_0_0_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_2_0_1_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_18_0_1_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1D_0_1_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_7A_0_1_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_192_0_1_0_0" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1_0_1_0" />
+        </AllowedSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_0_0_1_0_0_0_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_PATH_0_1_1_0_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_PATH_1_1_1_0_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_PATH_2_1_1_0_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_3_1_1_0_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1C_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1D_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1E_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1F_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_20_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_21_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_22_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_23_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_24_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_25_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_26_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_27_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_28_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_29_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_2A_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_19_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1A_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1B_0_1_0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_2_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_7_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_F_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_10_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_11_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_12_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_13_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_14_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_15_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_16_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_17_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_18_0_1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_19_0_1_0" />
+        </FileRulesRef>
+      </ProductSigners>
+    </SigningScenario>
+  </SigningScenarios>
+  <UpdatePolicySigners />
+  <CiSigners>
+    <CiSigner SignerId="ID_SIGNER_S_4_2_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_STORE_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_A_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_A_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_A_2_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_6_4_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_A_6_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_A_7_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_A_9_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_A_10_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_A_11_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_A_12_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_STORE_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_1E_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_44_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_48_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_139_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_166_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_168_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_185_3_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_564_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_10F8_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_1121_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_200E_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_245C_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_4A3C_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_4DB8_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_5183_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_95EC_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_D4A4_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_D647_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_F090_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_14531_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_1DBD8_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_2DBFE_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_3D8CB_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_3F801_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_41E41_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_44251_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_4DDE3_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_5F088_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_5F8E2_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_5FF7C_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_5FF87_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_60291_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_63027_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_671ED_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_671F4_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_5C_0_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_1_0_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_51_0_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_53_0_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_54_0_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_55_0_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_79_1_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_5F_1_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_60_1_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_69_1_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_6D_1_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_74_1_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_75_1_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_103_2_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_104_2_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_7B_2_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_F_7C_2_1_0_0_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_1_0_1_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_2_0_1_0_0_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_1_0_1_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_3_0_1_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_8_0_1_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_B7_0_1_0_0_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_2_0_1_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_18_0_1_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_1D_0_1_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_7A_0_1_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_192_0_1_0_0" />
+    <CiSigner SignerId="ID_SIGNER_S_1_0_1_0" />
+  </CiSigners>
+  <HvciOptions>0</HvciOptions>
+  <Settings>
+    <Setting Provider="PolicyInfo" Key="Information" ValueName="Name">
+      <Value>
+        <String>DefaultMicrosoftEnforced</String>
+      </Value>
+    </Setting>
+    <Setting Provider="PolicyInfo" Key="Information" ValueName="Id">
+      <Value>
+        <String>12022022</String>
+      </Value>
+    </Setting>
+    <Setting Provider="AllHostIds" Key="{0468C085-CA5B-11D0-AF08-00609797F0E0}" ValueName="EnterpriseDefinedClsId">
+      <Value>
+        <Boolean>true</Boolean>
+      </Value>
+    </Setting>
+  </Settings>
+</SiPolicy>
