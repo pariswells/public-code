@@ -1,0 +1,1232 @@
+apiVersion: v1
+items:
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.
+    resourceVersion: "22"
+    uid: 90c733ae-eaec-4e5d-8623-b4af90edd46f
+  spec:
+    groupPriorityMinimum: 18000
+    version: v1
+    versionPriority: 1
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:38Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1.acme.cert-manager.io
+    resourceVersion: "266277003"
+    uid: eba65c13-b523-41b2-b2ba-6a3bbe99949a
+  spec:
+    group: acme.cert-manager.io
+    groupPriorityMinimum: 1000
+    version: v1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:38Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.admissionregistration.k8s.io
+    resourceVersion: "27"
+    uid: 27e0fc85-7554-40a7-be27-dcd444cd0851
+  spec:
+    group: admissionregistration.k8s.io
+    groupPriorityMinimum: 16700
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.apiextensions.k8s.io
+    resourceVersion: "23"
+    uid: 2859f91e-9b12-45cb-a463-2177e8cb653d
+  spec:
+    group: apiextensions.k8s.io
+    groupPriorityMinimum: 16700
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.apps
+    resourceVersion: "29"
+    uid: 876e156c-6a42-40a2-95f6-9369bc0efcc7
+  spec:
+    group: apps
+    groupPriorityMinimum: 17800
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.authentication.k8s.io
+    resourceVersion: "30"
+    uid: 5866e349-983e-482b-ba7e-0459b716b5a0
+  spec:
+    group: authentication.k8s.io
+    groupPriorityMinimum: 17700
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.authorization.k8s.io
+    resourceVersion: "31"
+    uid: 6230fe62-fd95-4d6d-a526-0c5627c3de65
+  spec:
+    group: authorization.k8s.io
+    groupPriorityMinimum: 17600
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.autoscaling
+    resourceVersion: "37"
+    uid: f8564abd-6fed-4302-8057-0d0d4ab3e5fe
+  spec:
+    group: autoscaling
+    groupPriorityMinimum: 17500
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:38Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1.azmon.app.monitoring
+    resourceVersion: "266277014"
+    uid: bfae3bd0-289f-4630-b4aa-335246705267
+  spec:
+    group: azmon.app.monitoring
+    groupPriorityMinimum: 1000
+    version: v1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:38Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1.azmon.container.insights
+    resourceVersion: "266276920"
+    uid: 42093219-57b2-4efa-b516-f67d4fbc95b4
+  spec:
+    group: azmon.container.insights
+    groupPriorityMinimum: 1000
+    version: v1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.batch
+    resourceVersion: "40"
+    uid: 10e4d5e7-5e68-4c28-8ae4-4aa32de9f6c3
+  spec:
+    group: batch
+    groupPriorityMinimum: 17400
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:38Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1.cert-manager.io
+    resourceVersion: "266277012"
+    uid: cd9ff858-6c4d-4a74-b162-6f27fb38312e
+  spec:
+    group: cert-manager.io
+    groupPriorityMinimum: 1000
+    version: v1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:38Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.certificates.k8s.io
+    resourceVersion: "43"
+    uid: 8bc975c4-e7c4-41a4-ab93-3a15db8fb8de
+  spec:
+    group: certificates.k8s.io
+    groupPriorityMinimum: 17300
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.coordination.k8s.io
+    resourceVersion: "46"
+    uid: 52947937-0633-4258-81e5-31a177777a58
+  spec:
+    group: coordination.k8s.io
+    groupPriorityMinimum: 16500
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1.crd.projectcalico.org
+    resourceVersion: "266276915"
+    uid: 29494298-65f6-46f0-8bc5-a059946a14ec
+  spec:
+    group: crd.projectcalico.org
+    groupPriorityMinimum: 1000
+    version: v1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.events.k8s.io
+    resourceVersion: "49"
+    uid: bcb7bcaf-3218-4363-b0b9-e061de716d55
+  spec:
+    group: events.k8s.io
+    groupPriorityMinimum: 17750
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1.monitoring.coreos.com
+    resourceVersion: "266276891"
+    uid: 6cb17422-efc3-4c44-890e-6a2de0b58df3
+  spec:
+    group: monitoring.coreos.com
+    groupPriorityMinimum: 1000
+    version: v1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.networking.k8s.io
+    resourceVersion: "55"
+    uid: a5cccf3c-8c4c-4f0e-abf0-89d082453acd
+  spec:
+    group: networking.k8s.io
+    groupPriorityMinimum: 17200
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.node.k8s.io
+    resourceVersion: "57"
+    uid: fd58fe21-4a55-48b8-af5a-f41396a19aba
+  spec:
+    group: node.k8s.io
+    groupPriorityMinimum: 16300
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1.operator.tigera.io
+    resourceVersion: "266276904"
+    uid: 855b7be8-9eb9-4434-9ba8-7bd3503890cb
+  spec:
+    group: operator.tigera.io
+    groupPriorityMinimum: 1000
+    version: v1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.rbac.authorization.k8s.io
+    resourceVersion: "59"
+    uid: 36f05e19-46ca-4e5c-a6c4-da7d006b3c30
+  spec:
+    group: rbac.authorization.k8s.io
+    groupPriorityMinimum: 17000
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.scheduling.k8s.io
+    resourceVersion: "63"
+    uid: 6bf2198a-138d-41bc-9a19-4b8eb0ba7b6a
+  spec:
+    group: scheduling.k8s.io
+    groupPriorityMinimum: 16600
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1.storage.k8s.io
+    resourceVersion: "66"
+    uid: 675b182c-f7fc-4cdf-85d9-98aa984b641c
+  spec:
+    group: storage.k8s.io
+    groupPriorityMinimum: 16800
+    version: v1
+    versionPriority: 15
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1.templates.gatekeeper.sh
+    resourceVersion: "266276884"
+    uid: 2097005d-acc2-44ac-bf0b-2dfe7c5437a4
+  spec:
+    group: templates.gatekeeper.sh
+    groupPriorityMinimum: 1000
+    version: v1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1.velero.io
+    resourceVersion: "266276906"
+    uid: 56bec021-6eb7-4679-a1e7-267a93f9e185
+  spec:
+    group: velero.io
+    groupPriorityMinimum: 1000
+    version: v1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:38Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1alpha1.config.gatekeeper.sh
+    resourceVersion: "266277010"
+    uid: 524e390b-2e21-4c12-9316-e371232c563f
+  spec:
+    group: config.gatekeeper.sh
+    groupPriorityMinimum: 1000
+    version: v1alpha1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:38Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:38Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1alpha1.constraints.gatekeeper.sh
+    resourceVersion: "266277015"
+    uid: cb786335-2469-446d-9555-9b7b4595b1d0
+  spec:
+    group: constraints.gatekeeper.sh
+    groupPriorityMinimum: 1000
+    version: v1alpha1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:38Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1alpha1.monitoring.coreos.com
+    resourceVersion: "266276887"
+    uid: f4b6a67e-72a7-4422-85fa-4693e7098d41
+  spec:
+    group: monitoring.coreos.com
+    groupPriorityMinimum: 1000
+    version: v1alpha1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1alpha1.templates.gatekeeper.sh
+    resourceVersion: "266276909"
+    uid: faddc913-05d7-4124-8f81-157983a89323
+  spec:
+    group: templates.gatekeeper.sh
+    groupPriorityMinimum: 1000
+    version: v1alpha1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1alpha2.acme.cert-manager.io
+    resourceVersion: "266276921"
+    uid: 1fbcd1e0-754a-4c45-a09f-a0f19168dd90
+  spec:
+    group: acme.cert-manager.io
+    groupPriorityMinimum: 1000
+    version: v1alpha2
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1alpha2.cert-manager.io
+    resourceVersion: "266276905"
+    uid: 60280491-491c-4c89-a888-297ccc71fbbe
+  spec:
+    group: cert-manager.io
+    groupPriorityMinimum: 1000
+    version: v1alpha2
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:38Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1alpha3.acme.cert-manager.io
+    resourceVersion: "266277009"
+    uid: 978517ba-11cd-4a85-8b5c-8245d95b897b
+  spec:
+    group: acme.cert-manager.io
+    groupPriorityMinimum: 1000
+    version: v1alpha3
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:38Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1alpha3.cert-manager.io
+    resourceVersion: "266276885"
+    uid: d9a41d56-a64c-4d20-859d-017e0c3835f2
+  spec:
+    group: cert-manager.io
+    groupPriorityMinimum: 1000
+    version: v1alpha3
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:38Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1beta1.acme.cert-manager.io
+    resourceVersion: "266277013"
+    uid: ed99824a-3b23-486f-86a3-ba6dde0ff65d
+  spec:
+    group: acme.cert-manager.io
+    groupPriorityMinimum: 1000
+    version: v1beta1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:38Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.admissionregistration.k8s.io
+    resourceVersion: "26"
+    uid: 4fc6ddc0-c9c3-460e-ae91-a7af42ed6075
+  spec:
+    group: admissionregistration.k8s.io
+    groupPriorityMinimum: 16700
+    version: v1beta1
+    versionPriority: 12
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.apiextensions.k8s.io
+    resourceVersion: "28"
+    uid: 132d38cd-d138-42aa-8362-0f032e24b9df
+  spec:
+    group: apiextensions.k8s.io
+    groupPriorityMinimum: 16700
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.authentication.k8s.io
+    resourceVersion: "33"
+    uid: 20e1e1db-74fc-4aed-b8f6-80ca14f0f33b
+  spec:
+    group: authentication.k8s.io
+    groupPriorityMinimum: 17700
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.authorization.k8s.io
+    resourceVersion: "35"
+    uid: 93973ce6-89c1-4435-a8cf-6d3fb661fc56
+  spec:
+    group: authorization.k8s.io
+    groupPriorityMinimum: 17600
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.batch
+    resourceVersion: "42"
+    uid: 90c48abe-1f5d-498a-8a10-e68e38f70200
+  spec:
+    group: batch
+    groupPriorityMinimum: 17400
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1beta1.cert-manager.io
+    resourceVersion: "266276914"
+    uid: c792b27b-7a75-4200-8f0a-950008435e73
+  spec:
+    group: cert-manager.io
+    groupPriorityMinimum: 1000
+    version: v1beta1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.certificates.k8s.io
+    resourceVersion: "44"
+    uid: c271715d-05a6-471e-a516-bce7ddea19f6
+  spec:
+    group: certificates.k8s.io
+    groupPriorityMinimum: 17300
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1beta1.constraints.gatekeeper.sh
+    resourceVersion: "266276922"
+    uid: 9985b08d-77db-4c51-8244-9588843de170
+  spec:
+    group: constraints.gatekeeper.sh
+    groupPriorityMinimum: 1000
+    version: v1beta1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.coordination.k8s.io
+    resourceVersion: "45"
+    uid: 8b6d9cd8-8ef8-41d0-893b-e7592cc9421e
+  spec:
+    group: coordination.k8s.io
+    groupPriorityMinimum: 16500
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.discovery.k8s.io
+    resourceVersion: "48"
+    uid: 9e11ae6f-0418-45c0-83fa-9573465fa000
+  spec:
+    group: discovery.k8s.io
+    groupPriorityMinimum: 16200
+    version: v1beta1
+    versionPriority: 12
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.events.k8s.io
+    resourceVersion: "51"
+    uid: dcdc8c89-5f19-44f9-9fda-b6fba5653fbd
+  spec:
+    group: events.k8s.io
+    groupPriorityMinimum: 17750
+    version: v1beta1
+    versionPriority: 5
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.extensions
+    resourceVersion: "53"
+    uid: 116448e0-bb9a-47b8-b8f4-8744e45f3b85
+  spec:
+    group: extensions
+    groupPriorityMinimum: 17150
+    version: v1beta1
+    versionPriority: 1
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.flowcontrol.apiserver.k8s.io
+    resourceVersion: "54"
+    uid: 014f4e70-87ca-45e2-98c9-3ac061ff0a85
+  spec:
+    group: flowcontrol.apiserver.k8s.io
+    groupPriorityMinimum: 16100
+    version: v1beta1
+    versionPriority: 12
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"apiregistration.k8s.io/v1beta1","kind":"APIService","metadata":{"annotations":{},"labels":{"addonmanager.kubernetes.io/mode":"Reconcile","kubernetes.io/cluster-service":"true"},"name":"v1beta1.metrics.k8s.io"},"spec":{"group":"metrics.k8s.io","groupPriorityMinimum":100,"insecureSkipTLSVerify":true,"service":{"name":"metrics-server","namespace":"kube-system"},"version":"v1beta1","versionPriority":100}}
+    creationTimestamp: "2024-03-15T01:55:14Z"
+    labels:
+      addonmanager.kubernetes.io/mode: Reconcile
+      kubernetes.io/cluster-service: "true"
+    name: v1beta1.metrics.k8s.io
+    resourceVersion: "266295064"
+    uid: 94be4ffa-55b1-48e6-85c3-129f78c5c49d
+  spec:
+    group: metrics.k8s.io
+    groupPriorityMinimum: 100
+    insecureSkipTLSVerify: true
+    service:
+      name: metrics-server
+      namespace: kube-system
+      port: 443
+    version: v1beta1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T02:01:29Z"
+      message: endpoints for service/metrics-server in "kube-system" have no addresses
+        with port name ""
+      reason: MissingEndpoints
+      status: "False"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.networking.k8s.io
+    resourceVersion: "56"
+    uid: 9399d40c-a10e-4097-978f-ca0c0bdcee2a
+  spec:
+    group: networking.k8s.io
+    groupPriorityMinimum: 17200
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.node.k8s.io
+    resourceVersion: "61"
+    uid: 22bea0b7-b796-4e79-bf1a-388739404f57
+  spec:
+    group: node.k8s.io
+    groupPriorityMinimum: 16300
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.policy
+    resourceVersion: "58"
+    uid: 63c2e6bb-57fa-4308-8c66-2bbbfe398ca1
+  spec:
+    group: policy
+    groupPriorityMinimum: 17100
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.rbac.authorization.k8s.io
+    resourceVersion: "62"
+    uid: ca57d10f-1092-472d-b270-4f8433c13a78
+  spec:
+    group: rbac.authorization.k8s.io
+    groupPriorityMinimum: 17000
+    version: v1beta1
+    versionPriority: 12
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.scheduling.k8s.io
+    resourceVersion: "64"
+    uid: ef11126a-88b0-4466-bc7d-df60a99f3088
+  spec:
+    group: scheduling.k8s.io
+    groupPriorityMinimum: 16600
+    version: v1beta1
+    versionPriority: 12
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1beta1.status.gatekeeper.sh
+    resourceVersion: "266276901"
+    uid: dc6a4a59-6654-4a10-82c4-2b63a912d139
+  spec:
+    group: status.gatekeeper.sh
+    groupPriorityMinimum: 1000
+    version: v1beta1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v1beta1.storage.k8s.io
+    resourceVersion: "67"
+    uid: de9855a1-430f-4e8e-a2ea-9c59d6c5a8d5
+  spec:
+    group: storage.k8s.io
+    groupPriorityMinimum: 16800
+    version: v1beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2024-03-15T00:42:18Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: "true"
+    name: v1beta1.templates.gatekeeper.sh
+    resourceVersion: "266276919"
+    uid: b410929a-3849-45be-acdd-623c864b22de
+  spec:
+    group: templates.gatekeeper.sh
+    groupPriorityMinimum: 1000
+    version: v1beta1
+    versionPriority: 100
+  status:
+    conditions:
+    - lastTransitionTime: "2024-03-15T00:42:18Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v2beta1.autoscaling
+    resourceVersion: "38"
+    uid: f9901ebb-23ec-4a55-82d1-5e6aae5ebaf8
+  spec:
+    group: autoscaling
+    groupPriorityMinimum: 17500
+    version: v2beta1
+    versionPriority: 9
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+- apiVersion: apiregistration.k8s.io/v1
+  kind: APIService
+  metadata:
+    creationTimestamp: "2021-08-18T06:25:09Z"
+    labels:
+      kube-aggregator.kubernetes.io/automanaged: onstart
+    name: v2beta2.autoscaling
+    resourceVersion: "39"
+    uid: f4574a86-feec-4bfd-9198-7281790a0755
+  spec:
+    group: autoscaling
+    groupPriorityMinimum: 17500
+    version: v2beta2
+    versionPriority: 1
+  status:
+    conditions:
+    - lastTransitionTime: "2021-08-18T06:25:09Z"
+      message: Local APIServices are always available
+      reason: Local
+      status: "True"
+      type: Available
+kind: List
+metadata:
+  resourceVersion: ""
